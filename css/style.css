@@ -1,0 +1,91 @@
+body {
+	padding-top: 54px;
+	font: 14px/1 'Open Sans', sans-serif;
+	color: #555;
+	background: #eee;
+}
+@media (min-width: 992px) {
+	body {
+		padding-top: 56px;
+		font: 14px/1 'Open Sans', sans-serif;
+		color: #555;
+		background: #eee;
+	}
+}
+
+main {
+	min-width: 320px;
+	max-width: 1100px;
+	padding: 20px;
+	margin: 10px auto;
+	background: #fff;
+}
+
+section {
+	display: none;
+	margin-left: -2px;
+	padding: 20px 0 0;
+	border: 1px solid #ddd;
+}
+
+input {
+	display: none;
+}
+
+label {
+	width: 150px;
+	display: inline-block;
+	margin: 0 -2px -1px;
+	padding: 15px 25px 5px;
+	font-weight: 600;
+	text-align: center;
+	/*color: #bbb;*/
+	/*border: 1px solid transparent;*/
+	border: 1px solid #ddd;
+}
+
+label:before {
+	font-family: fontawesome;
+	font-weight: normal;
+	margin-right: 10px;
+}
+
+label:hover {
+	color: #888;
+	cursor: pointer;
+}
+
+input:checked + label {
+	color: #555;
+	/*border-top: 2px solid orange;*/
+	border-bottom: 1px solid #fff;
+}
+
+.tab-label {
+	margin-top: 10px;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+	display: block;
+}
+
+.bg-green {
+	background-color: #4caf50;
+}
+
+.title-menu {
+	font-size: 18px;
+}
+
+.title-label {
+	font-size: 14px;
+    background-color: #f1843b;
+    padding: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
