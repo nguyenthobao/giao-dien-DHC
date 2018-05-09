@@ -82,7 +82,6 @@
         <section id="content1">
 
         </section>
-
         <section id="content2">
             <div class="content margin30">
                 <h4 class="text-center">Bản đồ du lịch</h4>
@@ -128,15 +127,15 @@
                                     <td>21.0064807,105.799677,15</td>
                                     <td>Không có</td>
                                     <td>
-                                        <div class="dropdown show">
-                                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Dropdown link
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </a>
-
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                <a class="dropdown-item" href="#">Action</a>
-                                                <a class="dropdown-item" href="#">Another action</a>
-                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Chi tiết</a>
+                                                <a class="dropdown-item" href="#">Sửa</a>
+                                                <a class="dropdown-item" href="#">Xóa</a>
                                             </div>
                                         </div>
                                     </td>
@@ -147,7 +146,19 @@
                                     <td>Điểm tham quan</td>
                                     <td>21.0064807,105.799677,15</td>
                                     <td>Không có</td>
-                                    <td><a href="#" class="link"><i class="fas fa-ellipsis-v"></i></a></td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Chi tiết</a>
+                                                <a class="dropdown-item" href="#">Sửa</a>
+                                                <a class="dropdown-item" href="#">Xóa</a>
+                                            </div>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th scope="row">01</th>
@@ -155,7 +166,19 @@
                                     <td>Điểm tham quan</td>
                                     <td>21.0064807,105.799677,15</td>
                                     <td>Không có</td>
-                                    <td><a href="#" class="link"><i class="fas fa-ellipsis-v"></i></a></td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">
+                                                <i class="fas fa-ellipsis-v"></i>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Chi tiết</a>
+                                                <a class="dropdown-item" href="#">Sửa</a>
+                                                <a class="dropdown-item" href="#">Xóa</a>
+                                            </div>
+                                        </div>
+                                    </td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -258,34 +281,8 @@
 
 </body>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/popper.js@1.14.3/dist/umd/popper.js"></script>
-<script>
-    $(document).ready(function () {
-        $.ajax({
-            url: 'http://dhc.api/news/get-all-news',
-            method: 'POST',
-            dataType: 'json',
-            success: function (result) {
-                newsData = result.data.results;
-                var index = 1;
-                $.each(newsData, function (k, v) {
-                    html = '<tr>';
-                    html += '<th scope="row">'+index+'</th>';
-                    html += '<td>'+v.news_name+'</td>';
-                    html += '<td>'+v.newsType.type_name+'</td>';
-                    html += '<td>'+v.created_at+'</td>';
-                    html += '<td>'+v.news_note+'</td>';
-                    html += '<td><a href="#" class="link"><i class="fas fa-ellipsis-v"></i></a></td>';
-                    html += '</tr>';
-                    $('#news').append(html);
-                    index++;
-                });
-            },
-            error: function (e) {
-                alert('Có lỗi');
-            }
-        });
-    })
-</script>
+<script src="js/core.js"></script>
+
 </html>

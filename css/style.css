@@ -115,3 +115,13 @@ input:checked + label {
 	float: none;
 	margin: 0 auto;
 }
+
+/*Custom dropdown*/
+.dropdown-toggle::after {
+	content: none;
+}
+
+.dropdown-menu.show {
+	min-width: 100px;
+	left: -45px !important;
+}
