@@ -121,6 +121,10 @@ main input:checked + label {
 	cursor: pointer;
 }
 
+.menu {
+	color: #4caf50 !important;
+}
+
 .dropdown-toggle::after {
 	content: none;
 }

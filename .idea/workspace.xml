@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/map.module.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/002.1.Map.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/002.2.Map - new place.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/004.1.Promotions.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/004.2.Promotions - add new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/005.1.Events.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Web-admin-001.xd" afterPath="" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/core.js" afterPath="$PROJECT_DIR$/js/core.js" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng.rar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/001.Home.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/001.Home@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/002.1.Map.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/002.1.Map@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/002.2.Map - new place.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/002.2.Map - new place@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/004.1.Promotions.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/004.1.Promotions@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/004.2.Promotions - add new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/004.2.Promotions - add new@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/005.1.Events.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/005.1.Events@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/005.2.Events - add new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/005.2.Events - add new@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/Group 25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/Group 25@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/coupon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/coupon@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/house.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/house@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/map.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/map@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/tent.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Đà Nẵng/tent@2x.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.module.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/map.module.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+              <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
               <folding>
                 <element signature="e#104#294#0" expanded="false" />
                 <element signature="e#424#1326#0" expanded="false" />
@@ -47,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+            <state relative-caret-position="374">
+              <caret line="128" column="18" lean-forward="true" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -95,8 +123,8 @@
       <list>
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/map.module.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -187,7 +215,7 @@
       <workItem from="1525793088317" duration="3255000" />
       <workItem from="1525836812350" duration="5691000" />
       <workItem from="1525849056901" duration="91000" />
-      <workItem from="1525923536989" duration="21584000" />
+      <workItem from="1525923536989" duration="22476000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -210,11 +238,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525943573100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add module map api">
+      <created>1525950464775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525950464775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53836000" />
+    <option name="totallyTimeSpent" value="54728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -251,7 +286,8 @@
     <MESSAGE value="add api to test" />
     <MESSAGE value="xong menu" />
     <MESSAGE value="add api dhc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add api dhc" />
+    <MESSAGE value="add module map api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module map api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -442,24 +478,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/map.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
           <folding>
             <element signature="e#104#294#0" expanded="false" />
             <element signature="e#424#1326#0" expanded="false" />
             <element signature="e#1387#1996#0" expanded="false" />
             <element signature="n#!!block;n#UploadImage#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="128" column="18" lean-forward="true" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
