@@ -32,7 +32,7 @@ input {
 	display: none;
 }
 
-label {
+main label {
 	width: 150px;
 	display: inline-block;
 	margin: 0 -2px -1px;
@@ -50,18 +50,18 @@ label {
 	background-color: #eeeeee;
 }
 
-label:before {
+main label:before {
 	font-family: fontawesome;
 	font-weight: normal;
 	margin-right: 10px;
 }
 
-label:hover {
+main label:hover {
 	color: #888;
 	cursor: pointer;
 }
 
-input:checked + label {
+main input:checked + label {
 	color: #555;
 	/*border-top: 2px solid orange;*/
 	border-bottom: 1px solid #fff;

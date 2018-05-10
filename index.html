@@ -50,7 +50,11 @@
         </div>
     </div>
 </nav>
-
+<style>
+    .modal-header {
+        color: #fff;
+    }
+</style>
 <!-- Page Content -->
 <div class="container">
     <main>
@@ -104,7 +108,7 @@
                         <div class="col-centered">
                             <form action="#">
                                 <button type="button" class="btn btn-outline-success">Tìm kiếm</button>
-                                <button type="button" class="btn btn-outline-success">Thêm mới</button>
+                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modalForm">Thêm mới</button>
                             </form>
                         </div>
                         <div class="col-md-12 col-sm-12 margin30">
@@ -119,7 +123,7 @@
                                     <th scope="col">Tùy chọn</th>
                                 </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="point">
                                 <tr>
                                     <th scope="row">01</th>
                                     <td>Vịnh Hạ Long</td>
@@ -278,7 +282,82 @@
         </section>
     </main>
 </div>
-
+<!-- Modal -->
+<div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="modalFormLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-green">
+                <h6 class="modal-title" id="modalFormLabel">Thêm mới địa điểm</h6>
+            </div>
+            <div class="modal-body">
+                <form action="#" id="pointForm">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="pointName">Tên địa điểm</label>
+                                <input type="text" class="form-control" id="pointName" placeholder="Tên địa điểm">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="pointType">Loại</label>
+                                <select class="form-control" id="pointType">
+                                    <option value="1">Điểm tham quan</option>
+                                    <option value="2">Nhà hàng</option>
+                                    <option value="3">Điểm tham quan</option>
+                                    <option value="4">Quán cafe</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="pointLat">Tọa độ</label>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" class="form-control" id="pointLat" placeholder="Kinh độ">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" class="form-control" id="pointLong" placeholder="Vĩ độ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="pointDetail">Mô tả</label>
+                                <textarea class="form-control" id="pointDetail" rows="3" placeholder="Điền mô tả vào đây"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="pointNote">Chú thích</label>
+                                <input type="text" class="form-control" id="pointNote" placeholder="Chú thích điểm">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label>Hình ảnh</label>
+                                <div class="row prepend-img">
+                                    <div class="col-3">
+                                        <span class="btn btn-outline-success btn-upload">
+                                            <span>Thêm</span>
+                                        </span>
+                                        <input type="file" name="imgFile" id="imgUpload"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Hủy</button>
+                <button type="button" class="btn btn-outline-success" id="addPoint">Đồng ý</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
 </body>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
