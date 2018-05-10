@@ -117,6 +117,10 @@ main input:checked + label {
 }
 
 /*Custom dropdown*/
+.dropdown, .dropdown-item {
+	cursor: pointer;
+}
+
 .dropdown-toggle::after {
 	content: none;
 }
