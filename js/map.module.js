@@ -1,4 +1,4 @@
-var baseApi = 'http://dhc.api/';
+var baseApi = 'http://dhc.blo.com.vn/';
 $(document).ready(function () {
     $('body').on('click', '.btn-upload', function () {
         var numberImg = $('.selectImg').length;
@@ -139,12 +139,17 @@ $(document).ready(function () {
 
         /*Hide button upload*/
         $('.btn-upload').hide();
+
+        /*Hide button accept*/
+        $('.btn-upload').hide();
+        $('#addPoint').hide();
+    });
+
+    /*Event remove image preview*/
+    $('body').on('click', '.remove-img', function () {
+        $(this).parent('.img-preview').remove();
     });
 });
-
-/*$('#imgUpload').change(function(){
-    UploadImage();
-});*/
 
 /*Upload image ajax*/
 function UploadImage() {
@@ -157,7 +162,8 @@ function UploadImage() {
         contentType: false,
         cache: false,
         success: function (data) {
-            var previewImg = '<div class="col-3">';
+            var previewImg = '<div class="col-3 img-preview">';
+            previewImg += '<button class="close remove-img" type="button">×</button>';
             previewImg += '<img src="' + data.data.result + '" class="img-thumbnail selectImg" alt="Preview">';
             previewImg += '</div>';
             $('.prepend-img').prepend(previewImg);

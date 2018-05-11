@@ -133,3 +133,10 @@ main input:checked + label {
 	min-width: 100px;
 	left: -45px !important;
 }
+
+.remove-img {
+	position: absolute;
+	top: 0;
+	right: 19px;
+	z-index: 9999;
+}
