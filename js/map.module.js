@@ -1,4 +1,4 @@
-var baseApi = 'http://dhc.blo.com.vn/';
+var baseApi = 'http://dhc.api/';
 $(document).ready(function () {
     $('.btn-upload').click(function () {
         var numberImg = $('.selectImg').length;
@@ -11,6 +11,14 @@ $(document).ready(function () {
 
     $('#imgUpload').change(function(){
         UploadImage();
+    });
+    
+    /*Add point button*/
+    $('.add-form').click(function () {
+        $('#pointForm .pointForm').val('');
+        $('.prepend-img').html('');
+        $('.btn-upload').show();
+        $('#pointForm .form-control').prop('disabled', false);
     });
 
     /*Add Point*/
@@ -82,7 +90,7 @@ $(document).ready(function () {
                             url: baseApi + 'point/delete-point',
                             dataType: 'json',
                             data: JSON.stringify({
-                                point_id: pointId,
+                                point_id: pointId
                             }),
                             success: function () {
                                 getListPoint();
@@ -98,21 +106,16 @@ $(document).ready(function () {
                 }
             }
         });
-        // $.ajax({
-        //     type: 'POST',
-        //     url: baseApi + 'point/delete-point',
-        //     dataType: 'json',
-        //     data: JSON.stringify({
-        //         point_id: pointId,
-        //     }),
-        //     success: function () {
-        //         getListPoint();
-        //     },
-        //     error: function () {
-        //         alert('Có lỗi');
-        //     }
-        // });
-    })
+    });
+
+    /*Event view detail*/
+    $('body').on('click', '.view-point', function () {
+        var pointId = $(this).data('id');
+        getListPointById(pointId);
+        $('#pointForm .form-control').prop('disabled', true);
+        $('.prepend-img').html('');
+        $('.btn-upload').hide();
+    });
 });
 
 /*Upload image ajax*/
@@ -169,6 +172,47 @@ function getListPoint() {
                 $('#point').append(html);
                 index++;
             });
+        },
+        error: function (e) {
+            alert('Có lỗi');
+        }
+    });
+}
+
+/*Get list point by id ajax*/
+function getListPointById(id){
+    $.ajax({
+        url: baseApi + 'point/get-point',
+        method: 'POST',
+        dataType: 'json',
+        data: JSON.stringify({
+            point_id: id
+        }),
+        success: function (result) {
+            $('#modalForm').modal('show');
+            var pointData = result.data.result;
+            $('#pointName').val(pointData.point_name);
+            $('#pointType').val(pointData.point_type).change();
+            $('#pointLat').val(pointData.lat);
+            $('#pointLong').val(pointData.long);
+            if(pointData.point_detail !== null) {
+                $('#pointDetail').val(pointData.point_detail);
+            }
+
+            if(pointData.point_note !== null) {
+                $('#pointNote').val(pointData.point_note);
+            }
+
+            if(pointData.point_images !== '') {
+                var pointImage = JSON.parse(pointData.point_images);
+
+                for(i = 0; i < pointImage.length; i++) {
+                    var previewImg = '<div class="col-3">';
+                    previewImg += '<img src="' + pointImage[i] + '" class="img-thumbnail selectImg" alt="Preview">';
+                    previewImg += '</div>';
+                    $('.prepend-img').prepend(previewImg);
+                }
+            }
         },
         error: function (e) {
             alert('Có lỗi');

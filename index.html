@@ -85,7 +85,6 @@
         </label>
 
         <section id="content1">
-
         </section>
         <section id="content2">
             <div class="content margin30">
@@ -109,7 +108,7 @@
                         <div class="col-centered">
                             <form action="#">
                                 <button type="button" class="btn btn-outline-success">Tìm kiếm</button>
-                                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modalForm">Thêm mới</button>
+                                <button type="button" class="btn btn-outline-success add-form" data-toggle="modal" data-target="#modalForm">Thêm mới</button>
                             </form>
                         </div>
                         <div class="col-md-12 col-sm-12 margin30">
@@ -125,66 +124,6 @@
                                 </tr>
                                 </thead>
                                 <tbody id="point">
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>Vịnh Hạ Long</td>
-                                    <td>Điểm tham quan</td>
-                                    <td>21.0064807,105.799677,15</td>
-                                    <td>Không có</td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                               aria-expanded="false">
-                                                <i class="fas fa-ellipsis-v"></i>
-                                            </a>
-                                            <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="#">Chi tiết</a>
-                                                <a class="dropdown-item" href="#">Sửa</a>
-                                                <a class="dropdown-item" href="#">Xóa</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>Vịnh Hạ Long</td>
-                                    <td>Điểm tham quan</td>
-                                    <td>21.0064807,105.799677,15</td>
-                                    <td>Không có</td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                               aria-expanded="false">
-                                                <i class="fas fa-ellipsis-v"></i>
-                                            </a>
-                                            <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="#">Chi tiết</a>
-                                                <a class="dropdown-item" href="#">Sửa</a>
-                                                <a class="dropdown-item" href="#">Xóa</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>Vịnh Hạ Long</td>
-                                    <td>Điểm tham quan</td>
-                                    <td>21.0064807,105.799677,15</td>
-                                    <td>Không có</td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                                               aria-expanded="false">
-                                                <i class="fas fa-ellipsis-v"></i>
-                                            </a>
-                                            <div class="dropdown-menu">
-                                                <a class="dropdown-item" href="#">Chi tiết</a>
-                                                <a class="dropdown-item" href="#">Sửa</a>
-                                                <a class="dropdown-item" href="#">Xóa</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -296,7 +235,7 @@
                         <div class="col-12 col-md-6">
                             <div class="form-group">
                                 <label for="pointName">Tên địa điểm</label>
-                                <input type="text" class="form-control" id="pointName" placeholder="Tên địa điểm">
+                                <input type="text" class="form-control pointForm" id="pointName" placeholder="Tên địa điểm">
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
@@ -311,10 +250,10 @@
                                 <label for="pointLat">Tọa độ</label>
                                 <div class="row">
                                     <div class="col-12 col-md-6">
-                                        <input type="text" class="form-control" id="pointLat" placeholder="Kinh độ">
+                                        <input type="text" class="form-control pointForm" id="pointLat" placeholder="Kinh độ">
                                     </div>
                                     <div class="col-12 col-md-6">
-                                        <input type="text" class="form-control" id="pointLong" placeholder="Vĩ độ">
+                                        <input type="text" class="form-control pointForm" id="pointLong" placeholder="Vĩ độ">
                                     </div>
                                 </div>
                             </div>
@@ -322,13 +261,13 @@
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="pointDetail">Mô tả</label>
-                                <textarea class="form-control" id="pointDetail" rows="3" placeholder="Điền mô tả vào đây"></textarea>
+                                <textarea class="form-control pointForm" id="pointDetail" rows="3" placeholder="Điền mô tả vào đây"></textarea>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="pointNote">Chú thích</label>
-                                <input type="text" class="form-control" id="pointNote" placeholder="Chú thích điểm">
+                                <input type="text" class="form-control pointForm" id="pointNote" placeholder="Chú thích điểm">
                             </div>
                         </div>
                         <div class="col-12">
