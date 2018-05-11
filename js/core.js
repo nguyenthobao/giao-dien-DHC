@@ -1,4 +1,4 @@
-var baseApi = 'http://dhc.api/';
+var baseApi = 'http://dhc.blo.com.vn/';
 $(document).ready(function () {
     /*Get list news*/
     $('#tab4').change(function () {

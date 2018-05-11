@@ -1,4 +1,4 @@
-var baseApi = 'http://dhc.api/';
+var baseApi = 'http://dhc.blo.com.vn/';
 $(document).ready(function () {
     $('.btn-upload').click(function () {
         var numberImg = $('.selectImg').length;
@@ -69,20 +69,49 @@ $(document).ready(function () {
     /*Event delete point*/
     $('body').on('click', '.delete-point', function () {
         var pointId = $(this).data('id');
-        $.ajax({
-            type: 'POST',
-            url: baseApi + 'point/delete-point',
-            dataType: 'json',
-            data: JSON.stringify({
-                point_id: pointId,
-            }),
-            success: function () {
-                getListPoint();
-            },
-            error: function () {
-                alert('Có lỗi');
+        $.confirm({
+            title: 'Xác nhận',
+            content: 'Bạn chắc chắn muốn xóa ?',
+            buttons: {
+                confirm: {
+                    text: 'Xác nhận',
+                    btnClass: 'btn-danger',
+                    action: function () {
+                        $.ajax({
+                            type: 'POST',
+                            url: baseApi + 'point/delete-point',
+                            dataType: 'json',
+                            data: JSON.stringify({
+                                point_id: pointId,
+                            }),
+                            success: function () {
+                                getListPoint();
+                            },
+                            error: function () {
+                                alert('Có lỗi');
+                            }
+                        });
+                    }
+                },
+                cancel: {
+                    text: 'Hủy'
+                }
             }
         });
+        // $.ajax({
+        //     type: 'POST',
+        //     url: baseApi + 'point/delete-point',
+        //     dataType: 'json',
+        //     data: JSON.stringify({
+        //         point_id: pointId,
+        //     }),
+        //     success: function () {
+        //         getListPoint();
+        //     },
+        //     error: function () {
+        //         alert('Có lỗi');
+        //     }
+        // });
     })
 });
 
@@ -91,7 +120,7 @@ function UploadImage() {
     var form = new FormData($("#pointForm")[0]);
     $.ajax({
         type: 'POST',
-        url: 'http://dhc.api/point/upload-image',
+        url: baseApi + 'point/upload-image',
         data: form,
         processData: false,
         contentType: false,
