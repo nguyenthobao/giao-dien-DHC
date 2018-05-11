@@ -108,7 +108,7 @@
                         <div class="col-centered">
                             <form action="#">
                                 <button type="button" class="btn btn-outline-success">Tìm kiếm</button>
-                                <button type="button" class="btn btn-outline-success add-form" data-toggle="modal" data-target="#modalForm">Thêm mới</button>
+                                <button type="button" class="btn btn-outline-success add-form-point" data-toggle="modal" data-target="#modalForm">Thêm mới</button>
                             </form>
                         </div>
                         <div class="col-md-12 col-sm-12 margin30">
@@ -229,66 +229,13 @@
             <div class="modal-header bg-green">
                 <h6 class="modal-title" id="modalFormLabel">Thêm mới địa điểm</h6>
             </div>
-            <div class="modal-body">
-                <form action="#" id="pointForm">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <div class="form-group">
-                                <label for="pointName">Tên địa điểm</label>
-                                <input type="text" class="form-control pointForm" id="pointName" placeholder="Tên địa điểm">
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="form-group">
-                                <label for="pointType">Loại</label>
-                                <select class="form-control" id="pointType">
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="pointLat">Tọa độ</label>
-                                <div class="row">
-                                    <div class="col-12 col-md-6">
-                                        <input type="text" class="form-control pointForm" id="pointLat" placeholder="Kinh độ">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <input type="text" class="form-control pointForm" id="pointLong" placeholder="Vĩ độ">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="pointDetail">Mô tả</label>
-                                <textarea class="form-control pointForm" id="pointDetail" rows="3" placeholder="Điền mô tả vào đây"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="pointNote">Chú thích</label>
-                                <input type="text" class="form-control pointForm" id="pointNote" placeholder="Chú thích điểm">
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label>Hình ảnh</label>
-                                <div class="row prepend-img">
-                                    <div class="col-3">
-                                        <span class="btn btn-outline-success btn-upload">
-                                            <span>Thêm</span>
-                                        </span>
-                                        <input type="file" name="imgFile" id="imgUpload"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+            <div class="modal-body" id="form-body">
+
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer" id="form-footer">
                 <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Hủy</button>
                 <button type="button" class="btn btn-outline-success" id="addPoint">Đồng ý</button>
+                <button type="button" class="btn btn-outline-success" id="editPoint" style="display: none">Cập nhật</button>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 var baseApi = 'http://dhc.api/';
 $(document).ready(function () {
-    $('.btn-upload').click(function () {
+    $('body').on('click', '.btn-upload', function () {
         var numberImg = $('.selectImg').length;
         if(numberImg < 3) {
             $('#imgUpload').click();
@@ -9,20 +9,28 @@ $(document).ready(function () {
         }
     });
 
-    $('#imgUpload').change(function(){
-        UploadImage();
-    });
-    
     /*Add point button*/
-    $('.add-form').click(function () {
+    $('.add-form-point').click(function () {
+
+        /*Reset value empty*/
         $('#pointForm .pointForm').val('');
-        $('.prepend-img').html('');
+
+        /*Show button upload and button add*/
         $('.btn-upload').show();
+        $('#addPoint').show();
+
+        /*Hide edit point*/
+        $('#editPoint').hide();
+
+        /*Remove all image preview of point detail or edit point*/
+        $('.img-preview').remove();
+
+        /*Enable form input*/
         $('#pointForm .form-control').prop('disabled', false);
     });
 
     /*Add Point*/
-    $('#addPoint').click(function () {
+    $('body').on('click', '#addPoint', function () {
         var arr = [];
         $.each($('.selectImg'),function (k, v) {
             arr.push(v.currentSrc);
@@ -54,6 +62,16 @@ $(document).ready(function () {
     /*Get list point*/
     $('#tab2').change(function () {
         getListPoint();
+
+        /*Build form point*/
+        buildFormPoint();
+
+        $('#imgUpload').change(function(){
+            if($(this).val() !== '')
+            {
+                UploadImage();
+            }
+        });
 
         $.ajax({
             type: 'POST',
@@ -111,12 +129,22 @@ $(document).ready(function () {
     /*Event view detail*/
     $('body').on('click', '.view-point', function () {
         var pointId = $(this).data('id');
+        /*Remove all image preview of point detail or edit point*/
+        $('.img-preview').remove();
+
         getListPointById(pointId);
+
+        /*Disabled form input*/
         $('#pointForm .form-control').prop('disabled', true);
-        $('.prepend-img').html('');
+
+        /*Hide button upload*/
         $('.btn-upload').hide();
     });
 });
+
+/*$('#imgUpload').change(function(){
+    UploadImage();
+});*/
 
 /*Upload image ajax*/
 function UploadImage() {
@@ -207,7 +235,7 @@ function getListPointById(id){
                 var pointImage = JSON.parse(pointData.point_images);
 
                 for(i = 0; i < pointImage.length; i++) {
-                    var previewImg = '<div class="col-3">';
+                    var previewImg = '<div class="col-3 img-preview">';
                     previewImg += '<img src="' + pointImage[i] + '" class="img-thumbnail selectImg" alt="Preview">';
                     previewImg += '</div>';
                     $('.prepend-img').prepend(previewImg);
@@ -218,4 +246,74 @@ function getListPointById(id){
             alert('Có lỗi');
         }
     });
+}
+
+/*Build form point*/
+function buildFormPoint() {
+    $('#form-body').html('');
+    $('#form-footer').html('');
+
+    /*Build form body*/
+    var formBodyHtml = '<form action="#" id="pointForm">';
+            formBodyHtml += '<div class="row">';
+                formBodyHtml += '<div class="col-12 col-md-6">';
+                    formBodyHtml += '<div class="form-group">';
+                        formBodyHtml += '<label for="pointName">Tên địa điểm</label>';
+                        formBodyHtml += '<input type="text" class="form-control pointForm" id="pointName" placeholder="Tên địa điểm">';
+                    formBodyHtml += '</div>';
+                formBodyHtml += '</div>';
+                formBodyHtml += '<div class="col-12 col-md-6">';
+                    formBodyHtml += '<div class="form-group">';
+                        formBodyHtml += '<label for="pointType">Loại</label>';
+                        formBodyHtml += '<select class="form-control" id="pointType"></select>';
+                    formBodyHtml += '</div>';
+                formBodyHtml += '</div>';
+                formBodyHtml += '<div class="col-12">';
+                    formBodyHtml += '<div class="form-group">';
+                        formBodyHtml += '<label for="pointLat">Tọa độ</label>';
+                        formBodyHtml += '<div class="row">';
+                            formBodyHtml += '<div class="col-12 col-md-6">';
+                                formBodyHtml += '<input type="text" class="form-control pointForm" id="pointLat" placeholder="Kinh độ">';
+                            formBodyHtml += '</div>';
+                            formBodyHtml += '<div class="col-12 col-md-6">';
+                                formBodyHtml += '<input type="text" class="form-control pointForm" id="pointLong" placeholder="Vĩ độ">';
+                            formBodyHtml += '</div>';
+                        formBodyHtml += '</div>';
+                    formBodyHtml += '</div>';
+                formBodyHtml += '</div>';
+                formBodyHtml += '<div class="col-12">';
+                    formBodyHtml += '<div class="form-group">';
+                        formBodyHtml += '<label for="pointDetail">Mô tả</label>';
+                        formBodyHtml += '<textarea class="form-control pointForm" id="pointDetail" rows="3" placeholder="Điền mô tả vào đây"></textarea>';
+                    formBodyHtml += '</div>';
+                formBodyHtml += '</div>';
+                formBodyHtml += '<div class="col-12">';
+                    formBodyHtml += '<div class="form-group">';
+                        formBodyHtml += '<label for="pointNote">Chú thích</label>';
+                        formBodyHtml += '<input type="text" class="form-control pointForm" id="pointNote" placeholder="Chú thích điểm">';
+                    formBodyHtml += '</div>';
+                formBodyHtml += '</div>';
+
+                formBodyHtml += '<div class="col-12">';
+                    formBodyHtml += '<div class="form-group">';
+                        formBodyHtml += '<label>Hình ảnh</label>';
+                        formBodyHtml += '<div class="row prepend-img">';
+                            formBodyHtml += '<div class="col-3">';
+                                formBodyHtml += '<span class="btn btn-outline-success btn-upload"><span>Thêm</span></span>';
+                                formBodyHtml += '<input type="file" name="imgFile" id="imgUpload"/>';
+                            formBodyHtml += '</div>';
+                        formBodyHtml += '</div>';
+                    formBodyHtml += '</div>';
+                formBodyHtml += '</div>';
+
+            formBodyHtml += '</div>';
+        formBodyHtml += '</form>';
+    $('#form-body').html(formBodyHtml);
+
+    /*Build form footer*/
+    var formFooter = '<button type="button" class="btn btn-outline-danger" data-dismiss="modal">Hủy</button>';
+        formFooter += '<button type="button" class="btn btn-outline-success" id="addPoint">Đồng ý</button>';
+        formFooter += '<button type="button" class="btn btn-outline-success" id="editPoint" style="display: none">Cập nhật</button>';
+
+    $('#form-footer').html(formFooter);
 }

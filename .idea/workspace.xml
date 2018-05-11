@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
+    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="make build point form">
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/animations.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/callback.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/css/jquery-confirm.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/css/jquery-confirm.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/bundled.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/bundled.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/logo-name.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/dist/jquery-confirm.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/dist/jquery-confirm.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/jquery-confirm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/js/jquery-confirm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/text.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/themelayout.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery-confirm-v3.3.0/themes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/_variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/fa-brands.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/fa-regular.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/fa-solid.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/less/fontawesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/fa-brands.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/fa-regular.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/fa-solid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scss/fontawesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/map.module.js" afterPath="$PROJECT_DIR$/js/map.module.js" />
@@ -18,12 +96,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="269" column="80" lean-forward="false" selection-start-line="269" selection-start-column="80" selection-end-line="269" selection-end-column="80" />
+            <state relative-caret-position="215">
+              <caret line="237" column="124" lean-forward="true" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="124" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,15 +111,14 @@
       <file leaf-file-name="map.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/map.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
-                <element signature="e#104#294#0" expanded="false" />
-                <element signature="e#677#1579#0" expanded="false" />
-                <element signature="e#1640#2249#0" expanded="false" />
-                <element signature="e#2335#3406#0" expanded="false" />
-                <element signature="n#!!block;n#UploadImage#0" expanded="false" />
-                <element signature="e#4380#6069#0" expanded="false" />
+                <element signature="e#976#1023#0" expanded="false" />
+                <element signature="e#2118#2677#0" expanded="false" />
+                <element signature="e#2771#3842#0" expanded="false" />
+                <element signature="e#5012#6701#0" expanded="false" />
+                <marker date="1526034955260" expanded="true" signature="12219:12232" ph="..." />
               </folding>
             </state>
           </provider>
@@ -84,7 +162,13 @@
       <find>content2</find>
       <find>col-</find>
       <find>label</find>
+      <find>btn-upload</find>
+      <find>formHtml</find>
+      <find>addPoint</find>
     </findStrings>
+    <replaceStrings>
+      <replace>formBodyHtml</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,7 +272,7 @@
       <workItem from="1525849056901" duration="91000" />
       <workItem from="1525923536989" duration="24781000" />
       <workItem from="1526001053703" duration="271000" />
-      <workItem from="1526024765740" duration="4656000" />
+      <workItem from="1526024765740" duration="9935000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -232,21 +316,38 @@
       <option name="project" value="LOCAL" />
       <updated>1526001274247</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="view detail point">
+      <created>1526030022949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1526030022949</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61960000" />
+    <option name="totallyTimeSpent" value="67239000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -259,7 +360,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -276,7 +376,9 @@
     <MESSAGE value="add module map api" />
     <MESSAGE value="fix color menu" />
     <MESSAGE value="add delete confirm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add delete confirm" />
+    <MESSAGE value="view detail point" />
+    <MESSAGE value="make build point form" />
+    <option name="LAST_COMMIT_MESSAGE" value="make build point form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,6 +395,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -320,12 +423,11 @@
         <state relative-caret-position="1530">
           <caret line="90" column="48" lean-forward="true" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
           <folding>
-            <element signature="e#104#294#0" expanded="false" />
-            <element signature="e#677#1579#0" expanded="false" />
-            <element signature="e#1640#2249#0" expanded="false" />
-            <element signature="e#2335#3406#0" expanded="false" />
-            <element signature="n#!!block;n#UploadImage#0" expanded="false" />
-            <element signature="e#4380#6069#0" expanded="false" />
+            <element signature="e#976#1023#0" expanded="false" />
+            <element signature="e#2118#2677#0" expanded="false" />
+            <element signature="e#2771#3842#0" expanded="false" />
+            <element signature="e#5012#6701#0" expanded="false" />
+            <marker date="1526034955260" expanded="true" signature="12219:12232" ph="..." />
           </folding>
         </state>
       </provider>
@@ -338,6 +440,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -365,12 +468,11 @@
         <state relative-caret-position="1326">
           <caret line="78" column="41" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
           <folding>
-            <element signature="e#104#294#0" expanded="false" />
-            <element signature="e#677#1579#0" expanded="false" />
-            <element signature="e#1640#2249#0" expanded="false" />
-            <element signature="e#2335#3406#0" expanded="false" />
-            <element signature="n#!!block;n#UploadImage#0" expanded="false" />
-            <element signature="e#4380#6069#0" expanded="false" />
+            <element signature="e#976#1023#0" expanded="false" />
+            <element signature="e#2118#2677#0" expanded="false" />
+            <element signature="e#2771#3842#0" expanded="false" />
+            <element signature="e#5012#6701#0" expanded="false" />
+            <marker date="1526034955260" expanded="true" signature="12219:12232" ph="..." />
           </folding>
         </state>
       </provider>
@@ -383,6 +485,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -405,6 +508,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -427,6 +531,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -439,6 +544,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -451,6 +557,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -463,6 +570,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,6 +583,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,6 +603,7 @@
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,27 +654,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="269" column="80" lean-forward="false" selection-start-line="269" selection-start-column="80" selection-end-line="269" selection-end-column="80" />
+        <state relative-caret-position="215">
+          <caret line="237" column="124" lean-forward="true" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="124" />
           <folding>
             <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-confirm-v3.3.0/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="928" column="0" lean-forward="false" selection-start-line="928" selection-start-column="0" selection-end-line="928" selection-end-column="54" />
+          <folding>
+            <marker date="1502373695000" expanded="true" signature="45209:45214" ph="&amp;" />
+            <marker date="1502373695000" expanded="true" signature="78084:78100" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/map.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <element signature="e#104#294#0" expanded="false" />
-            <element signature="e#677#1579#0" expanded="false" />
-            <element signature="e#1640#2249#0" expanded="false" />
-            <element signature="e#2335#3406#0" expanded="false" />
-            <element signature="n#!!block;n#UploadImage#0" expanded="false" />
-            <element signature="e#4380#6069#0" expanded="false" />
+            <element signature="e#976#1023#0" expanded="false" />
+            <element signature="e#2118#2677#0" expanded="false" />
+            <element signature="e#2771#3842#0" expanded="false" />
+            <element signature="e#5012#6701#0" expanded="false" />
+            <marker date="1526034955260" expanded="true" signature="12219:12232" ph="..." />
           </folding>
         </state>
       </provider>
