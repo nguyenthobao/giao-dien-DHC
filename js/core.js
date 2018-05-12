@@ -1,4 +1,4 @@
-var baseApi = 'http://dhc.api/';
+var baseApi = 'http://dhc.blo.com.vn/';
 var key = '';
 
 function getFormattedDate(unix_timestamp, methor) {
