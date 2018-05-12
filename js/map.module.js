@@ -165,6 +165,7 @@ $(document).ready(function () {
     /*Event view detail*/
     $('body').on('click', '.view-point', function () {
         var pointId = $(this).data('id');
+        $('#pointForm .form-control').val('');
         /*Remove all image preview of point detail or edit point*/
         $('.img-preview').remove();
 
@@ -185,6 +186,7 @@ $(document).ready(function () {
     /*Event edit point*/
     $('body').on('click', '.edit-point', function () {
         $('#pointForm .form-control').prop('disabled', false);
+        $('#pointForm .form-control').val('');
         var pointId = $(this).data('id');
 
         $('#pointId').val(pointId);

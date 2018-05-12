@@ -140,3 +140,10 @@ main input:checked + label {
 	right: 19px;
 	z-index: 9999;
 }
+
+.img-datepicker {
+	position: absolute;
+	top: 28px;
+	right: 22px;
+	width: 25px;
+}

@@ -92,6 +92,7 @@ $(document).ready(function () {
 
     /*Event view news detail*/
     $('body').on('click', '.view-news', function () {
+        $('#newsForm .form-control').val('');
         var newsId = $(this).data('id');
         /*Remove all image preview of news detail or edit news*/
         $('.img-preview').remove();
@@ -107,11 +108,13 @@ $(document).ready(function () {
         /*Hide button accept and edit*/
         $('#addNews').hide();
         $('#editNews').hide();
+
     });
 
-    /*Event edit point*/
+    /*Event edit news*/
     $('body').on('click', '.edit-news', function () {
         $('#newsForm .form-control').prop('disabled', false);
+        $('#newsForm .form-control').val('');
 
         var newsId = $(this).data('id');
 
@@ -123,6 +126,7 @@ $(document).ready(function () {
 
         $('#addNews').hide();
         $('#editNews').show();
+
     });
 
     /*Event Click Edit News*/
@@ -207,7 +211,7 @@ function getListNews() {
                 html += '<th scope="row">' + index + '</th>';
                 html += '<td>' + v.news_name + '</td>';
                 html += '<td>' + v.newsType.type_name + '</td>';
-                html += '<td>' + v.created_at + '</td>';
+                html += '<td>' + getFormattedDate(v.created_at, 'date') + '</td>';
                 if(v.news_note == null) {
                     html += '<td>-</td>';
                 } else {

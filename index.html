@@ -14,6 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="jquery-confirm-v3.3.0/css/jquery-confirm.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
 
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -140,7 +141,7 @@
                         <div class="col-centered">
                             <form action="#">
                                 <button type="button" class="btn btn-outline-success">Tìm kiếm</button>
-                                <button type="button" class="btn btn-outline-success">Thêm mới</button>
+                                <button type="button" class="btn btn-outline-success add-form-promotion" data-toggle="modal" data-target="#modalForm">Thêm mới</button>
                             </form>
                         </div>
                         <div class="col-md-12 col-sm-12 margin30">
@@ -150,36 +151,12 @@
                                     <th scope="col">STT</th>
                                     <th scope="col">Tên</th>
                                     <th scope="col">Loại</th>
-                                    <th scope="col">Tọa độ</th>
+                                    <th scope="col">Thời hạn</th>
                                     <th scope="col">Chú thích</th>
                                     <th scope="col">Tùy chọn</th>
                                 </tr>
                                 </thead>
-                                <tbody>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>Vịnh Hạ Long</td>
-                                    <td>Điểm tham quan</td>
-                                    <td>21.0064807,105.799677,15</td>
-                                    <td>Không có</td>
-                                    <td><a href="#" class="link"><i class="fas fa-ellipsis-v"></i></a></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>Vịnh Hạ Long</td>
-                                    <td>Điểm tham quan</td>
-                                    <td>21.0064807,105.799677,15</td>
-                                    <td>Không có</td>
-                                    <td><a href="#" class="link"><i class="fas fa-ellipsis-v"></i></a></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>Vịnh Hạ Long</td>
-                                    <td>Điểm tham quan</td>
-                                    <td>21.0064807,105.799677,15</td>
-                                    <td>Không có</td>
-                                    <td><a href="#" class="link"><i class="fas fa-ellipsis-v"></i></a></td>
-                                </tr>
+                                <tbody id="promotion">
                                 </tbody>
                             </table>
                         </div>
@@ -244,6 +221,11 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="jquery-confirm-v3.3.0/js/jquery-confirm.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.ui.datepicker-vi.js"></script>
+<script src="jquery-dateFormat/dist/dateFormat.min.js"></script>
+<script src="jquery-dateFormat/dist/jquery-dateformat.min.js"></script>
+
 <script src="js/core.js"></script>
 <!--Map module-->
 <script src="js/map.module.js"></script>
@@ -252,4 +234,8 @@
 <!--News module-->
 <script src="js/news.module.js"></script>
 <!--End News module-->
+
+<!--Promotion module-->
+<script src="js/promotion.module.js"></script>
+<!--End Promotion module-->
 </html>
