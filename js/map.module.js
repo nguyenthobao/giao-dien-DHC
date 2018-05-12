@@ -1,5 +1,3 @@
-var baseApi = 'http://dhc.blo.com.vn/';
-var key = '';
 $(document).ready(function () {
 
     /*get key in session store*/
@@ -339,10 +337,10 @@ function buildFormPoint() {
                         formBodyHtml += '<label for="pointLat">Tọa độ</label>';
                         formBodyHtml += '<div class="row">';
                             formBodyHtml += '<div class="col-12 col-md-6">';
-                                formBodyHtml += '<input type="text" class="form-control pointForm" id="pointLat" placeholder="Kinh độ">';
+                                formBodyHtml += '<input type="text" class="form-control pointForm" id="pointLat" maxlength="10" placeholder="Kinh độ">';
                             formBodyHtml += '</div>';
                             formBodyHtml += '<div class="col-12 col-md-6">';
-                                formBodyHtml += '<input type="text" class="form-control pointForm" id="pointLong" placeholder="Vĩ độ">';
+                                formBodyHtml += '<input type="text" class="form-control pointForm" id="pointLong" maxlength="10" placeholder="Vĩ độ">';
                             formBodyHtml += '</div>';
                         formBodyHtml += '</div>';
                     formBodyHtml += '</div>';
