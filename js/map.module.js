@@ -5,7 +5,7 @@ $(document).ready(function () {
     /*get key in session store*/
     key = sessionStorage._key;
 
-    $('body').on('click', '.btn-upload', function () {
+    $('body').on('click', '.btn-upload-point', function () {
         var numberImg = $('.selectImg').length;
         if(numberImg < 3) {
             $('#imgUpload').click();
@@ -21,7 +21,7 @@ $(document).ready(function () {
         $('#pointForm .pointForm').val('');
 
         /*Show button upload and button add*/
-        $('.btn-upload').show();
+        $('.btn-upload-point').show();
         $('#addPoint').show();
 
         /*Hide edit point*/
@@ -107,7 +107,7 @@ $(document).ready(function () {
         $('#imgUpload').change(function(){
             if($(this).val() !== '')
             {
-                UploadImage();
+                UploadImagePoint();
             }
         });
 
@@ -176,10 +176,9 @@ $(document).ready(function () {
         $('#pointForm .form-control').prop('disabled', true);
 
         /*Hide button upload*/
-        $('.btn-upload').hide();
+        $('.btn-upload-point').hide();
 
         /*Hide button accept and edit*/
-        $('.btn-upload').hide();
         $('#addPoint').hide();
         $('#editPoint').hide();
 
@@ -207,7 +206,7 @@ $(document).ready(function () {
 });
 
 /*Upload image ajax*/
-function UploadImage() {
+function UploadImagePoint() {
     var form = new FormData($("#pointForm")[0]);
     $.ajax({
         type: 'POST',
@@ -317,6 +316,8 @@ function buildFormPoint() {
     $('#form-body').html('');
     $('#form-footer').html('');
 
+    $('#modalFormLabel').text('Thêm mới địa điểm');
+
     /*Build form body*/
     var formBodyHtml = '<form action="#" id="pointForm">';
             formBodyHtml += '<input type="hidden" id="pointId">';
@@ -364,7 +365,7 @@ function buildFormPoint() {
                         formBodyHtml += '<label>Hình ảnh</label>';
                         formBodyHtml += '<div class="row prepend-img">';
                             formBodyHtml += '<div class="col-3">';
-                                formBodyHtml += '<span class="btn btn-outline-success btn-upload"><span>Thêm</span></span>';
+                                formBodyHtml += '<span class="btn btn-outline-success btn-upload-point"><span>Thêm</span></span>';
                                 formBodyHtml += '<input type="file" name="imgFile" id="imgUpload"/>';
                             formBodyHtml += '</div>';
                         formBodyHtml += '</div>';
