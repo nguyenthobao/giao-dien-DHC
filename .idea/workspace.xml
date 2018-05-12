@@ -1,10 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="add httaccess">
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/animations.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/callback.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/css/jquery-confirm.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/css/jquery-confirm.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/bundled.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/bundled.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/demo/logo-name.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/dist/jquery-confirm.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/dist/jquery-confirm.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/jquery-confirm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/js/jquery-confirm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/text.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/themelayout.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-confirm-v3.3.0/themes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/jquery-dateFormat" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/js/core.js" afterPath="$PROJECT_DIR$/js/core.js" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/animations.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/callback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/css/jquery-confirm.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/css/jquery-confirm.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/demo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/bundled.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/bundled.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/libs/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/demo/logo-name.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/dist/jquery-confirm.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/dist/jquery-confirm.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/form.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/jquery-confirm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/js/jquery-confirm.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/table.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/text.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/themelayout.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-confirm-v3.3.0/themes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/jquery-dateFormat" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="233" column="18" lean-forward="false" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
+            <state relative-caret-position="-2343">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -47,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="188" column="25" lean-forward="true" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
+              <caret line="188" column="25" lean-forward="false" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
               <folding>
                 <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
@@ -56,21 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -126,12 +179,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/news.module.js" />
         <option value="$PROJECT_DIR$/js/map.module.js" />
         <option value="$PROJECT_DIR$/js/promotion.module.js" />
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -223,7 +276,7 @@
       <workItem from="1526054953643" duration="37000" />
       <workItem from="1526092405612" duration="14640000" />
       <workItem from="1526114336882" duration="1472000" />
-      <workItem from="1526120108740" duration="12229000" />
+      <workItem from="1526120108740" duration="12836000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -316,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526140893629</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add httaccess">
+      <created>1526141144550</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1526141144550</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98543000" />
+    <option name="totallyTimeSpent" value="99150000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -333,9 +393,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30711043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30711043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -376,7 +435,8 @@
     <MESSAGE value="done news" />
     <MESSAGE value="add core" />
     <MESSAGE value="done promotion" />
-    <option name="LAST_COMMIT_MESSAGE" value="done promotion" />
+    <MESSAGE value="add httaccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="add httaccess" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,18 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="233" column="18" lean-forward="false" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/map.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -792,7 +840,7 @@
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="188" column="25" lean-forward="true" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
+          <caret line="188" column="25" lean-forward="false" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
           <folding>
             <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
@@ -822,9 +870,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2343">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#label#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
