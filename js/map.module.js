@@ -1,5 +1,10 @@
 var baseApi = 'http://dhc.blo.com.vn/';
+var key = '';
 $(document).ready(function () {
+
+    /*get key in session store*/
+    key = sessionStorage._key;
+
     $('body').on('click', '.btn-upload', function () {
         var numberImg = $('.selectImg').length;
         if(numberImg < 3) {
@@ -29,7 +34,7 @@ $(document).ready(function () {
         $('#pointForm .form-control').prop('disabled', false);
     });
 
-    /*Add Point*/
+    /*Event Click Add Point*/
     $('body').on('click', '#addPoint', function () {
         var arr = [];
         $.each($('.selectImg'),function (k, v) {
@@ -55,6 +60,39 @@ $(document).ready(function () {
             },
             error: function () {
                 alert('Có lỗi');
+            }
+        });
+    });
+
+    /*Event Click Edit Point*/
+    $('body').on('click', '#editPoint', function () {
+        var arr = [];
+        $.each($('.selectImg'),function (k, v) {
+            arr.push(v.currentSrc);
+        });
+        var stringImage = JSON.stringify(arr);
+
+        $.ajax({
+            type: 'POST',
+            url: baseApi + 'point/edit-point',
+            dataType: 'json',
+            data: JSON.stringify({
+                point_id: $('#pointId').val(),
+                point_name: $('#pointName').val(),
+                point_type: $('#pointType').val(),
+                lat: $('#pointLat').val(),
+                long: $('#pointLong').val(),
+                point_detail: $('#pointDetail').val(),
+                point_note: $('#pointNote').val(),
+                point_images: stringImage
+            }),
+            // async: false,
+            success: function () {
+                $('#modalForm').modal('hide');
+                getListPoint();
+            },
+            error: function () {
+                alert('Error');
             }
         });
     });
@@ -132,7 +170,7 @@ $(document).ready(function () {
         /*Remove all image preview of point detail or edit point*/
         $('.img-preview').remove();
 
-        getListPointById(pointId);
+        getListPointById(pointId, true);
 
         /*Disabled form input*/
         $('#pointForm .form-control').prop('disabled', true);
@@ -140,9 +178,26 @@ $(document).ready(function () {
         /*Hide button upload*/
         $('.btn-upload').hide();
 
-        /*Hide button accept*/
+        /*Hide button accept and edit*/
         $('.btn-upload').hide();
         $('#addPoint').hide();
+        $('#editPoint').hide();
+
+    });
+
+    /*Event edit point*/
+    $('body').on('click', '.edit-point', function () {
+        $('#pointForm .form-control').prop('disabled', false);
+        var pointId = $(this).data('id');
+
+        $('#pointId').val(pointId);
+
+        $('.img-preview').remove();
+
+        getListPointById(pointId, false);
+
+        $('#addPoint').hide();
+        $('#editPoint').show();
     });
 
     /*Event remove image preview*/
@@ -214,7 +269,7 @@ function getListPoint() {
 }
 
 /*Get list point by id ajax*/
-function getListPointById(id){
+function getListPointById(id, isView){
     $.ajax({
         url: baseApi + 'point/get-point',
         method: 'POST',
@@ -242,6 +297,9 @@ function getListPointById(id){
 
                 for(i = 0; i < pointImage.length; i++) {
                     var previewImg = '<div class="col-3 img-preview">';
+                    if(!isView) {
+                        previewImg += '<button class="close remove-img" type="button">×</button>';
+                    }
                     previewImg += '<img src="' + pointImage[i] + '" class="img-thumbnail selectImg" alt="Preview">';
                     previewImg += '</div>';
                     $('.prepend-img').prepend(previewImg);
@@ -261,6 +319,7 @@ function buildFormPoint() {
 
     /*Build form body*/
     var formBodyHtml = '<form action="#" id="pointForm">';
+            formBodyHtml += '<input type="hidden" id="pointId">';
             formBodyHtml += '<div class="row">';
                 formBodyHtml += '<div class="col-12 col-md-6">';
                     formBodyHtml += '<div class="form-group">';
