@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
+    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="remove key after get key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/restful/index.php" afterPath="$PROJECT_DIR$/restful/index.php" />
     </list>
@@ -42,8 +42,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restful/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="109" column="46" lean-forward="true" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+            <state relative-caret-position="-526">
+              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -255,7 +255,7 @@
       <workItem from="1526092405612" duration="14640000" />
       <workItem from="1526114336882" duration="1472000" />
       <workItem from="1526120108740" duration="13074000" />
-      <workItem from="1526264482883" duration="19548000" />
+      <workItem from="1526264482883" duration="19918000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -418,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526286363918</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="remove key after get key">
+      <created>1526286434172</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526286434172</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121529000" />
+    <option name="totallyTimeSpent" value="121899000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -874,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/news.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -913,10 +912,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/restful/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="109" column="46" lean-forward="true" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+        <state relative-caret-position="-526">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
       </provider>

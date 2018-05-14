@@ -43,14 +43,17 @@ class AccessApi
                 break;
             case "add-point":
                 $url = self::BASE_API.'point/add-point';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             case "edit-point":
                 $url = self::BASE_API.'point/edit-point';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             case "delete-point":
                 $url = self::BASE_API.'point/delete-point';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             /*Promotion*/
@@ -64,14 +67,17 @@ class AccessApi
                 break;
             case "edit-promotion":
                 $url = self::BASE_API.'promotion/edit-promotion';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             case "add-promotion":
                 $url = self::BASE_API.'promotion/add-promotion';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             case "delete-promotion":
                 $url = self::BASE_API.'promotion/delete-promotion';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             /*News*/
@@ -85,14 +91,17 @@ class AccessApi
                 break;
             case "add-news":
                 $url = self::BASE_API.'news/add-news';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             case "edit-news":
                 $url = self::BASE_API.'news/edit-news';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
             case "delete-news":
                 $url = self::BASE_API.'news/delete-news';
+                unset($_POST['key']);
                 $this->accessApi($url, $_POST, $key);
                 break;
         }
@@ -100,8 +109,6 @@ class AccessApi
 
     public function accessApi($url, $param, $key = ''){
         $curl = curl_init();
-
-        unset($param['key']);
 
         $param = json_encode($param);
 
