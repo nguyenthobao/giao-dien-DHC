@@ -101,6 +101,8 @@ class AccessApi
     public function accessApi($url, $param, $key = ''){
         $curl = curl_init();
 
+        unset($param['key']);
+
         $param = json_encode($param);
 
         curl_setopt($curl, CURLOPT_POSTFIELDS, $param);
