@@ -10,7 +10,6 @@ class AccessApi
 
         if(isset($_POST['key'])) {
             $key = $_POST['key'];
-            unset($_POST['key']);
         }
 
         if(!isset($_GET['action'])) {
