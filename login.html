@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Đăng nhập</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="js/jquery-confirm-v3.3.0/css/jquery-confirm.css">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-green fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+
+            <h5 class="title-menu d-inline">
+                Khu du lịch Andromeda
+            </h5>
+            <h5 class="title-label d-inline">Trang quản trị</h5>
+
+        </a>
+    </div>
+</nav>
+<!-- Page Content -->
+<div class="container" id="content">
+
+    <div class="row margin30">
+        <div class="col-12 col-lg-6 col-md-6 col-centered">
+            <h5>Đăng nhập</h5>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">Tài khoản</label>
+                    <input type="email" class="form-control" id="username" autocomplete="false" placeholder="Điền tài khoản">
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" class="form-control" autocomplete="false" id="password" placeholder="Mật khẩu">
+                </div>
+                <button type="button" class="btn btn-outline-success" id="login">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-confirm-v3.3.0/js/jquery-confirm.js"></script>
+
+<script>
+    var baseApi = 'http://dhc.blo.com.vn/';
+    var baseUrl = 'http://admin.dhc.api/restful/';
+    var key = '';
+    $(document).ready(function () {
+        /*Check login*/
+    if (typeof(Storage) !== "undefined") {
+        if(sessionStorage.appKey !== undefined && sessionStorage.appKey !== '') {
+            var key = sessionStorage.appKey;
+            $.ajax({
+                type: 'POST',
+                url: baseUrl + '?action=check-login',
+                dataType: 'text',
+                data: {
+                    key: key
+                },
+                success: function (result) {
+                    result = $.parseJSON(result);
+                    if(result.code == 200) {
+                        window.location.replace("index.html");
+                    }
+                },
+                error: function () {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: 'Không thể kết nối'
+                    });
+                }
+            });
+        }
+
+    } else {
+        $.alert({
+            title: 'Cảnh báo!',
+            type: 'red',
+            typeAnimated: true,
+            content: 'Trình duyệt quá cũ, hệ thống không thể hoạt động',
+        });
+    }
+
+        /*Login*/
+        $('body').on('click', '#login', function () {
+            $.ajax({
+                type: 'POST',
+                url: baseUrl + '?action=login',
+                dataType: 'text',
+                data: {
+                    username: $('#username').val(),
+                    password: $('#password').val()
+                },
+                success: function (result) {
+                    result = $.parseJSON(result);
+                    console.log(result);
+                    if(result.code == 200) {
+                        sessionStorage.appKey = result.data.result.accessToken;
+                        $.dialog({
+                            title: 'Thông báo!',
+                            content: 'Đăng nhập thành công, vui lòng đợi giây lát',
+                            onClose: function (e) {
+                                e.preventDefault();
+                            }
+                        });
+                        window.location.replace("index.html");
+                    } else {
+                        $.alert({
+                            title: 'Cảnh báo!',
+                            type: 'red',
+                            typeAnimated: true,
+                            content: 'Tài khoản hoặc mật khẩu không đúng',
+                        });
+                    }
+                },
+                error: function () {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: 'Không thể kết nối',
+                    });
+                }
+            });
+        });
+});
+</script>
+</html>

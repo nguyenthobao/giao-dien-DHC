@@ -6,7 +6,12 @@ class AccessApi
 
     public function __construct()
     {
-        $key = 'tWr6m3DnX8hvMS-iKhcMMWD0_VU7gdhks9dPd5ou1549349300';
+        $key = '';
+
+        if(isset($_POST['key'])) {
+            $key = $_POST['key'];
+        }
+
         if(!isset($_GET['action'])) {
             $action = 'login';
         } else {
@@ -14,6 +19,15 @@ class AccessApi
         }
 
         switch ($action) {
+            /*User*/
+            case "login":
+                $url = self::BASE_API.'user/login';
+                $this->accessApi($url, $_POST);
+                break;
+            case "check-login":
+                $url = self::BASE_API.'user/check-login';
+                $this->accessApi($url, $_POST);
+                break;
             /*Point*/
             case "get-all-point":
                 $url = self::BASE_API.'point/get-all-point';
@@ -88,28 +102,6 @@ class AccessApi
         $curl = curl_init();
 
         $param = json_encode($param);
-
-        curl_setopt($curl, CURLOPT_POSTFIELDS, $param);
-
-        curl_setopt($curl, CURLOPT_URL, $url);
-
-        if(!empty($key)) {
-            curl_setopt($curl, CURLOPT_HTTPHEADER, [
-                '_accesstoken: '.$key,
-            ]);
-        }
-
-        $result = curl_exec($curl);
-
-        curl_close($curl);
-
-        return $result;
-    }
-
-    public function accessApiUpload($url, $param, $key = ''){
-        $curl = curl_init();
-
-//        $param = json_encode($param);
 
         curl_setopt($curl, CURLOPT_POSTFIELDS, $param);
 

@@ -35,15 +35,16 @@
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarResponsive" style="display: none">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Admin
+                    <a class="nav-link" href="#">
+                        <span id="fullname"></span>
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Đăng xuất</a>
+                    <a class="nav-link" id="user-logout" href="#">Đăng xuất</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Trợ giúp</a>
@@ -58,9 +59,8 @@
     }
 </style>
 <!-- Page Content -->
-<div class="container">
+<div class="container" id="content" style="display: none">
     <main>
-
         <input id="tab1" type="radio" name="tabs" checked>
         <label for="tab1">
             <img src="images/house.png" class="img-responsive" alt="">
@@ -198,6 +198,7 @@
             </div>
         </section>
     </main>
+
 </div>
 <!-- Modal -->
 <div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="modalFormLabel" aria-hidden="true">

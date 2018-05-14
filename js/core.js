@@ -1,6 +1,57 @@
-var baseApi = 'http://dhc.api/';
+var baseApi = 'http://dhc.blo.com.vn/';
 var baseUrl = 'http://admin.dhc.api/restful/';
 var key = '';
+
+$(document).ready(function () {
+    /*Check login*/
+    if (typeof(Storage) !== "undefined") {
+        if(sessionStorage.appKey !== undefined && sessionStorage.appKey !== '') {
+            var key = sessionStorage.appKey;
+            $.ajax({
+                type: 'POST',
+                url: baseUrl + '?action=check-login',
+                dataType: 'text',
+                data: {
+                    key: key
+                },
+                success: function (result) {
+                    result = $.parseJSON(result);
+                    if(result.code != 200) {
+                        window.location.replace("login.html");
+                    }
+                    $('#fullname').text(result.data.fullName);
+                    $('#content').show();
+                    $('#navbarResponsive').show();
+                },
+                error: function () {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: 'Không thể kết nối',
+                    });
+                }
+            });
+        } else {
+            window.location.replace("login.html");
+        }
+
+    } else {
+        $.alert({
+            title: 'Cảnh báo!',
+            type: 'red',
+            typeAnimated: true,
+            content: 'Trình duyệt quá cũ, hệ thống không thể hoạt động',
+        });
+    }
+    
+    /*Logout*/
+    $('body').on('click', '#user-logout', function () {
+        sessionStorage.clear();
+        window.location.replace("login.html");
+    });
+
+});
 
 function getFormattedDate(unix_timestamp, methor) {
     var date = new Date(unix_timestamp*1000);
