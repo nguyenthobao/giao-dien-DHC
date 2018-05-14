@@ -7,6 +7,9 @@ $(document).ready(function () {
         /*Build form news*/
         buildFormPromotion();
 
+        /*Ckeditor*/
+        CKEDITOR.replace('promotionDetail');
+
         /*Datepicker*/
         var timeStart = $('#timeStart');
         var timeEnd = $('#timeEnd');
@@ -250,7 +253,6 @@ function getListPromotion() {
         url: baseUrl + '?action=get-all-promotion',
         method: 'POST',
         success: function (result) {
-            console.log(result);
             result = $.parseJSON(result);
 
             promotionData = result.data.results;

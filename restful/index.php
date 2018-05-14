@@ -6,7 +6,7 @@ class AccessApi
 
     public function __construct()
     {
-        $key = 'k63CX4WKWtj5yTL-FMzRlgFgQR01B2Rd0OxKzQt11549345472';
+        $key = 'tWr6m3DnX8hvMS-iKhcMMWD0_VU7gdhks9dPd5ou1549349300';
         if(!isset($_GET['action'])) {
             $action = 'login';
         } else {

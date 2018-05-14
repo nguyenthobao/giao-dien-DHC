@@ -6,6 +6,9 @@ $(document).ready(function () {
         /*Build form news*/
         buildFormNews();
 
+        /*Ckeditor*/
+        CKEDITOR.replace('newsContent');
+
         $('#imgUpload').change(function(){
             if($(this).val() !== '')
             {

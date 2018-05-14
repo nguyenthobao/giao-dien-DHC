@@ -119,6 +119,9 @@ $(document).ready(function () {
         /*Build form point*/
         buildFormPoint();
 
+        /*Ckeditor*/
+        CKEDITOR.replace('pointDetail');
+
         $('#imgUpload').change(function(){
             if($(this).val() !== '')
             {
