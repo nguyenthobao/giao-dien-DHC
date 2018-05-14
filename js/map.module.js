@@ -47,7 +47,7 @@ $(document).ready(function () {
                 point_type: $('#pointType').val(),
                 lat: $('#pointLat').val(),
                 long: $('#pointLong').val(),
-                point_detail: $('#pointDetail').val(),
+                point_detail: CKEDITOR.instances.pointDetail.getData(),
                 point_note: $('#pointNote').val(),
                 point_images: stringImage,
                 key: key
@@ -92,7 +92,7 @@ $(document).ready(function () {
                 point_type: $('#pointType').val(),
                 lat: $('#pointLat').val(),
                 long: $('#pointLong').val(),
-                point_detail: $('#pointDetail').val(),
+                point_detail: CKEDITOR.instances.pointDetail.getData(),
                 point_note: $('#pointNote').val(),
                 point_images: stringImage,
                 key: key
@@ -343,7 +343,7 @@ function getListPointById(id, isView){
             $('#pointLat').val(pointData.lat);
             $('#pointLong').val(pointData.long);
             if(pointData.point_detail !== null) {
-                $('#pointDetail').val(pointData.point_detail);
+                CKEDITOR.instances.pointDetail.setData(pointData.point_detail);
             }
 
             if(pointData.point_note !== null) {

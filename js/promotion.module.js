@@ -140,7 +140,7 @@ $(document).ready(function () {
                 promotion_type: $('#promotionType').val(),
                 time_start: dateToTimeStamp($('#timeStart').val()),
                 time_end: dateToTimeStamp($('#timeEnd').val()),
-                promotion_detail: $('#promotionDetail').val(),
+                promotion_detail: CKEDITOR.instances.promotionDetail.getData(),
                 promotion_note: $('#promotionNote').val(),
                 promotion_image: stringImage,
                 key: key
@@ -183,7 +183,7 @@ $(document).ready(function () {
                 promotion_type: $('#promotionType').val(),
                 time_start: dateToTimeStamp($('#timeStart').val()),
                 time_end: dateToTimeStamp($('#timeEnd').val()),
-                promotion_detail: $('#promotionDetail').val(),
+                promotion_detail: CKEDITOR.instances.promotionDetail.getData(),
                 promotion_note: $('#promotionNote').val(),
                 promotion_image: stringImage,
                 key: key
@@ -436,7 +436,7 @@ function getListPromotionById(id, isView){
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
-                $('#promotionDetail').val(promotionData.promotion_detail);
+                CKEDITOR.instances.promotionDetail.setData(promotionData.promotion_detail);
             }
 
             if(promotionData.promotion_note !== null) {
