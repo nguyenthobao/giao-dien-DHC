@@ -2,7 +2,7 @@
 
 class AccessApi
 {
-    const BASE_API = 'http://dhc.api/';
+    const BASE_API = 'http://dhc.blo.com.vn/';
 
     public function __construct()
     {
