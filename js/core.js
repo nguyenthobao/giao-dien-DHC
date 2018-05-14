@@ -1,4 +1,5 @@
-var baseApi = 'http://dhc.blo.com.vn/';
+var baseApi = 'http://dhc.api/';
+var baseUrl = 'http://admin.dhc.api/restful/';
 var key = '';
 
 function getFormattedDate(unix_timestamp, methor) {

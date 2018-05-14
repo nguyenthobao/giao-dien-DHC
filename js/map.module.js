@@ -1,8 +1,5 @@
 $(document).ready(function () {
 
-    /*get key in session store*/
-    key = sessionStorage._key;
-
     $('body').on('click', '.btn-upload-point', function () {
         var numberImg = $('.selectImg').length;
         if(numberImg < 3) {
@@ -41,20 +38,31 @@ $(document).ready(function () {
         var stringImage = JSON.stringify(arr);
         $.ajax({
             type: 'POST',
-            url: baseApi + 'point/add-point',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=add-point',
+            dataType: 'text',
+            data: {
                 point_name: $('#pointName').val(),
                 point_type: $('#pointType').val(),
                 lat: $('#pointLat').val(),
                 long: $('#pointLong').val(),
                 point_detail: $('#pointDetail').val(),
                 point_note: $('#pointNote').val(),
-                point_images: stringImage
-            }),
-            success: function () {
-                $('#modalForm').modal('hide');
-                getListPoint();
+                point_images: stringImage,
+            },
+            success: function (result) {
+                result = $.parseJSON(result);
+                if(result.code == 200){
+                    $('#modalForm').modal('hide');
+                    getListPoint();
+                } else {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: result.message
+                    });
+
+                }
             },
             error: function () {
                 alert('Có lỗi');
@@ -72,9 +80,9 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: baseApi + 'point/edit-point',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=edit-point',
+            datatype:'text',
+            data: {
                 point_id: $('#pointId').val(),
                 point_name: $('#pointName').val(),
                 point_type: $('#pointType').val(),
@@ -82,12 +90,21 @@ $(document).ready(function () {
                 long: $('#pointLong').val(),
                 point_detail: $('#pointDetail').val(),
                 point_note: $('#pointNote').val(),
-                point_images: stringImage
-            }),
-            // async: false,
-            success: function () {
-                $('#modalForm').modal('hide');
-                getListPoint();
+                point_images: stringImage,
+            },
+            success: function (result) {
+                result = $.parseJSON(result);
+                if(result.code == 200){
+                    $('#modalForm').modal('hide');
+                    getListPoint();
+                } else {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: result.message,
+                    });
+                }
             },
             error: function () {
                 alert('Error');
@@ -111,12 +128,13 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: baseApi + 'type/get-type',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=get-type',
+            dataType: 'text',
+            data: {
                 type_of: 2,
-            }),
+            },
             success: function (result) {
+                result = $.parseJSON(result);
                 $('#pointType').html('');
                 $.each(result.data.result, function (k, v) {
                     $('#pointType').append('<option value="' + v.type_id + '">' + v.type_name + '</option>');
@@ -141,13 +159,24 @@ $(document).ready(function () {
                     action: function () {
                         $.ajax({
                             type: 'POST',
-                            url: baseApi + 'point/delete-point',
-                            dataType: 'json',
-                            data: JSON.stringify({
+                            url: baseUrl + '?action=delete-point',
+                            dataType: 'text',
+                            data: {
                                 point_id: pointId
-                            }),
-                            success: function () {
-                                getListPoint();
+                            },
+                            success: function (result) {
+                                result = $.parseJSON(result);
+                                if(result.code == 200){
+                                    getListPoint();
+                                } else {
+                                    $.alert({
+                                        title: 'Cảnh báo!',
+                                        type: 'red',
+                                        typeAnimated: true,
+                                        content: result.message,
+                                    });
+
+                                }
                             },
                             error: function () {
                                 alert('Có lỗi');
@@ -216,11 +245,30 @@ function UploadImagePoint() {
         contentType: false,
         cache: false,
         success: function (data) {
-            var previewImg = '<div class="col-3 img-preview">';
-            previewImg += '<button class="close remove-img" type="button">×</button>';
-            previewImg += '<img src="' + data.data.result + '" class="img-thumbnail selectImg" alt="Preview">';
-            previewImg += '</div>';
-            $('.prepend-img').prepend(previewImg);
+            if(data.code == 200){
+                var previewImg = '<div class="col-3 img-preview">';
+                previewImg += '<button class="close remove-img" type="button">×</button>';
+                previewImg += '<img src="' + data.data.result + '" class="img-thumbnail selectImg" alt="Preview">';
+                previewImg += '</div>';
+                $('.prepend-img').prepend(previewImg);
+            } else {
+                $.alert({
+                    title: 'Cảnh báo!',
+                    type: 'red',
+                    typeAnimated: true,
+                    content: result.message,
+                });
+            }
+
+
+        },
+        error: function () {
+            $.alert({
+                title: 'Cảnh báo!',
+                type: 'red',
+                typeAnimated: true,
+                content: 'Có lỗi upload',
+            });
         }
     });
 }
@@ -229,10 +277,10 @@ function UploadImagePoint() {
 function getListPoint() {
     $('#point').html('');
     $.ajax({
-        url: baseApi + 'point/get-all-point',
+        url: baseUrl + '?action=get-all-point',
         method: 'POST',
-        dataType: 'json',
         success: function (result) {
+            result = $.parseJSON(result);
             pointData = result.data.results;
             var index = 1;
             $.each(pointData, function (k, v) {
@@ -270,13 +318,14 @@ function getListPoint() {
 /*Get list point by id ajax*/
 function getListPointById(id, isView){
     $.ajax({
-        url: baseApi + 'point/get-point',
+        url: baseUrl + '?action=get-point',
         method: 'POST',
-        dataType: 'json',
-        data: JSON.stringify({
+        dataType: 'text',
+        data: {
             point_id: id
-        }),
+        },
         success: function (result) {
+            result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var pointData = result.data.result;
             $('#pointName').val(pointData.point_name);

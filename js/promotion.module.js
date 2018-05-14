@@ -38,44 +38,15 @@ $(document).ready(function () {
             }
         });
 
-        /*Event Click Add Promotion*/
-        $('body').on('click', '#addPromotion', function () {
-            var stringImage = '';
-            $.each($('.selectImg'),function (k, v) {
-                stringImage = v.currentSrc;
-            });
-
-            $.ajax({
-                type: 'POST',
-                url: baseApi + 'promotion/add-promotion',
-                dataType: 'json',
-                data: JSON.stringify({
-                    promotion_name: $('#promotionName').val(),
-                    promotion_type: $('#promotionType').val(),
-                    time_start: dateToTimeStamp($('#timeStart').val()),
-                    time_end: dateToTimeStamp($('#timeEnd').val()),
-                    promotion_detail: $('#promotionDetail').val(),
-                    promotion_note: $('#promotionNote').val(),
-                    promotion_image: stringImage
-                }),
-                success: function () {
-                    $('#modalForm').modal('hide');
-                    getListPromotion();
-                },
-                error: function () {
-                    alert('Có lỗi');
-                }
-            });
-        });
-
         $.ajax({
             type: 'POST',
-            url: baseApi + 'type/get-type',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=get-type',
+            dataType: 'text',
+            data: {
                 type_of: 3,
-            }),
+            },
             success: function (result) {
+                result = $.parseJSON(result);
                 $('#promotionType').html('');
                 $.each(result.data.result, function (k, v) {
                     $('#promotionType').append('<option value="' + v.type_id + '">' + v.type_name + '</option>');
@@ -85,6 +56,26 @@ $(document).ready(function () {
                 alert('Có lỗi');
             }
         });
+    });
+
+    /*Add point button*/
+    $('.add-form-promotion').click(function () {
+
+        /*Reset value empty*/
+        $('#promotionForm .promotionForm').val('');
+
+        /*Show button upload and button add*/
+        $('.btn-upload-promotion').show();
+        $('#addPromotion').show();
+
+        /*Hide edit point*/
+        $('#editPromotion').hide();
+
+        /*Remove all image preview of point detail or edit point*/
+        $('.img-preview').remove();
+
+        /*Enable form input*/
+        $('#promotionForm .form-control').prop('disabled', false);
     });
 
     /*Event view promotion detail*/
@@ -136,9 +127,9 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: baseApi + 'promotion/edit-promotion',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=edit-promotion',
+            dataType: 'text',
+            data: {
                 promotion_id: $('#promotionId').val(),
                 promotion_name: $('#promotionName').val(),
                 promotion_type: $('#promotionType').val(),
@@ -147,14 +138,63 @@ $(document).ready(function () {
                 promotion_detail: $('#promotionDetail').val(),
                 promotion_note: $('#promotionNote').val(),
                 promotion_image: stringImage
-            }),
-            // async: false,
-            success: function () {
-                $('#modalForm').modal('hide');
-                getListPromotion();
+            },
+            success: function (result) {
+                result = $.parseJSON(result);
+                if(result.code == 200){
+                    $('#modalForm').modal('hide');
+                    getListPromotion();
+                } else {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: result.message,
+                    });
+                }
             },
             error: function () {
                 alert('Error');
+            }
+        });
+    });
+
+    /*Event Click Add Promotion*/
+    $('body').on('click', '#addPromotion', function () {
+        var stringImage = '';
+        $.each($('.selectImg'),function (k, v) {
+            stringImage = v.currentSrc;
+        });
+
+        $.ajax({
+            type: 'POST',
+            url: baseUrl + '?action=add-promotion',
+            dataType: 'text',
+            data: {
+                promotion_name: $('#promotionName').val(),
+                promotion_type: $('#promotionType').val(),
+                time_start: dateToTimeStamp($('#timeStart').val()),
+                time_end: dateToTimeStamp($('#timeEnd').val()),
+                promotion_detail: $('#promotionDetail').val(),
+                promotion_note: $('#promotionNote').val(),
+                promotion_image: stringImage
+            },
+            success: function (result) {
+                result = $.parseJSON(result);
+                if(result.code == 200){
+                    $('#modalForm').modal('hide');
+                    getListPromotion();
+                } else {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: result.message
+                    });
+                }
+            },
+            error: function () {
+                alert('Có lỗi');
             }
         });
     });
@@ -172,13 +212,23 @@ $(document).ready(function () {
                     action: function () {
                         $.ajax({
                             type: 'POST',
-                            url: baseApi + 'promotion/delete-promotion',
-                            dataType: 'json',
-                            data: JSON.stringify({
+                            url: baseUrl + '?action=delete-promotion',
+                            dataType: 'text',
+                            data: {
                                 promotion_id: promotionId
-                            }),
-                            success: function () {
-                                getListPromotion();
+                            },
+                            success: function (result) {
+                                result = $.parseJSON(result);
+                                if(result.code == 200){
+                                    getListPromotion();
+                                } else {
+                                    $.alert({
+                                        title: 'Cảnh báo!',
+                                        type: 'red',
+                                        typeAnimated: true,
+                                        content: result.message
+                                    });
+                                }
                             },
                             error: function () {
                                 alert('Có lỗi');
@@ -197,10 +247,12 @@ $(document).ready(function () {
 function getListPromotion() {
     $('#promotion').html('');
     $.ajax({
-        url: baseApi + 'promotion/get-all-promotion',
+        url: baseUrl + '?action=get-all-promotion',
         method: 'POST',
-        dataType: 'json',
         success: function (result) {
+            console.log(result);
+            result = $.parseJSON(result);
+
             promotionData = result.data.results;
             var index = 1;
             $.each(promotionData, function (k, v) {
@@ -360,13 +412,14 @@ function UploadImagePromotion() {
 
 function getListPromotionById(id, isView){
     $.ajax({
-        url: baseApi + 'promotion/get-promotion',
+        url: baseUrl + '?action=get-promotion',
         method: 'POST',
-        dataType: 'json',
-        data: JSON.stringify({
+        dataType: 'text',
+        data: {
             promotion_id: id
-        }),
+        },
         success: function (result) {
+            result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;
             $('#promotionName').val(promotionData.promotion_name);

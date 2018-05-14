@@ -15,12 +15,13 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: baseApi + 'type/get-type',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=get-type',
+            dataType: 'text',
+            data: {
                 type_of: 1,
-            }),
+            },
             success: function (result) {
+                result = $.parseJSON(result);
                 $('#newsType').html('');
                 $.each(result.data.result, function (k, v) {
                     $('#newsType').append('<option value="' + v.type_id + '">' + v.type_name + '</option>');
@@ -70,19 +71,29 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: baseApi + 'news/add-news',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=add-news',
+            dataType: 'text',
+            data: {
                 news_name: $('#newsName').val(),
                 news_type: $('#newsType').val(),
                 news_description: $('#newsDescription').val(),
                 news_content: $('#newsContent').val(),
                 news_note: $('#newsNote').val(),
                 news_image: stringImage
-            }),
-            success: function () {
-                $('#modalForm').modal('hide');
-                getListNews();
+            },
+            success: function (result) {
+                result = $.parseJSON(result);
+                if(result.code == 200){
+                    $('#modalForm').modal('hide');
+                    getListNews();
+                } else {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: result.message
+                    });
+                }
             },
             error: function () {
                 alert('Có lỗi');
@@ -138,9 +149,9 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: baseApi + 'news/edit-news',
-            dataType: 'json',
-            data: JSON.stringify({
+            url: baseUrl + '?action=edit-news',
+            dataType: 'text',
+            data: {
                 news_id: $('#newsId').val(),
                 news_name: $('#newsName').val(),
                 news_type: $('#newsType').val(),
@@ -148,11 +159,21 @@ $(document).ready(function () {
                 news_content: $('#newsContent').val(),
                 news_note: $('#newsNote').val(),
                 news_image: stringImage
-            }),
+            },
             // async: false,
-            success: function () {
-                $('#modalForm').modal('hide');
-                getListNews();
+            success: function (result) {
+                result = $.parseJSON(result);
+                if(result.code == 200){
+                    $('#modalForm').modal('hide');
+                    getListNews();
+                } else {
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: result.message
+                    });
+                }
             },
             error: function () {
                 alert('Error');
@@ -174,13 +195,23 @@ $(document).ready(function () {
                     action: function () {
                         $.ajax({
                             type: 'POST',
-                            url: baseApi + 'news/delete-news',
-                            dataType: 'json',
-                            data: JSON.stringify({
+                            url: baseUrl + '?action=delete-news',
+                            dataType: 'text',
+                            data: {
                                 news_id: newsId
-                            }),
-                            success: function () {
-                                getListNews();
+                            },
+                            success: function (result) {
+                                result = $.parseJSON(result);
+                                if(result.code == 200){
+                                    getListNews();
+                                } else {
+                                    $.alert({
+                                        title: 'Cảnh báo!',
+                                        type: 'red',
+                                        typeAnimated: true,
+                                        content: result.message
+                                    });
+                                }
                             },
                             error: function () {
                                 alert('Có lỗi');
@@ -200,10 +231,11 @@ $(document).ready(function () {
 function getListNews() {
     $('#news').html('');
     $.ajax({
-        url: baseApi + 'news/get-all-news',
+        url: baseUrl + '?action=get-all-news',
         method: 'POST',
-        dataType: 'json',
+        dataType: 'text',
         success: function (result) {
+            result = $.parseJSON(result);
             newsData = result.data.results;
             var index = 1;
             $.each(newsData, function (k, v) {
@@ -324,13 +356,14 @@ function UploadImageNews() {
 
 function getListNewsById(id, isView){
     $.ajax({
-        url: baseApi + 'news/get-news',
+        url: baseUrl + '?action=get-news',
         method: 'POST',
-        dataType: 'json',
-        data: JSON.stringify({
+        dataType: 'text',
+        data: {
             news_id: id
-        }),
+        },
         success: function (result) {
+            result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var newsData = result.data.result;
             $('#newsName').val(newsData.news_name);
