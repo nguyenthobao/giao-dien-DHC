@@ -72,6 +72,8 @@ $(document).ready(function () {
             stringImage = v.currentSrc;
         });
 
+        var key = sessionStorage.appKey;
+
         $.ajax({
             type: 'POST',
             url: baseUrl + '?action=add-news',
@@ -82,7 +84,8 @@ $(document).ready(function () {
                 news_description: $('#newsDescription').val(),
                 news_content: $('#newsContent').val(),
                 news_note: $('#newsNote').val(),
-                news_image: stringImage
+                news_image: stringImage,
+                key: key
             },
             success: function (result) {
                 result = $.parseJSON(result);
@@ -150,6 +153,8 @@ $(document).ready(function () {
             stringImage = v.currentSrc;
         });
 
+        var key = sessionStorage.appKey;
+
         $.ajax({
             type: 'POST',
             url: baseUrl + '?action=edit-news',
@@ -161,7 +166,8 @@ $(document).ready(function () {
                 news_description: $('#newsDescription').val(),
                 news_content: $('#newsContent').val(),
                 news_note: $('#newsNote').val(),
-                news_image: stringImage
+                news_image: stringImage,
+                key: key
             },
             // async: false,
             success: function (result) {
@@ -188,6 +194,7 @@ $(document).ready(function () {
     /*Event delete news*/
     $('body').on('click', '.delete-news', function () {
         var newsId = $(this).data('id');
+        var key = sessionStorage.appKey;
         $.confirm({
             title: 'Xác nhận',
             content: 'Bạn chắc chắn muốn xóa ?',
@@ -201,7 +208,8 @@ $(document).ready(function () {
                             url: baseUrl + '?action=delete-news',
                             dataType: 'text',
                             data: {
-                                news_id: newsId
+                                news_id: newsId,
+                                key: key
                             },
                             success: function (result) {
                                 result = $.parseJSON(result);

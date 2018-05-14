@@ -36,6 +36,8 @@ $(document).ready(function () {
             arr.push(v.currentSrc);
         });
         var stringImage = JSON.stringify(arr);
+        var key = sessionStorage.appKey;
+
         $.ajax({
             type: 'POST',
             url: baseUrl + '?action=add-point',
@@ -48,6 +50,7 @@ $(document).ready(function () {
                 point_detail: $('#pointDetail').val(),
                 point_note: $('#pointNote').val(),
                 point_images: stringImage,
+                key: key
             },
             success: function (result) {
                 result = $.parseJSON(result);
@@ -77,6 +80,7 @@ $(document).ready(function () {
             arr.push(v.currentSrc);
         });
         var stringImage = JSON.stringify(arr);
+        var key = sessionStorage.appKey;
 
         $.ajax({
             type: 'POST',
@@ -91,6 +95,7 @@ $(document).ready(function () {
                 point_detail: $('#pointDetail').val(),
                 point_note: $('#pointNote').val(),
                 point_images: stringImage,
+                key: key
             },
             success: function (result) {
                 result = $.parseJSON(result);
@@ -152,6 +157,7 @@ $(document).ready(function () {
     /*Event delete point*/
     $('body').on('click', '.delete-point', function () {
         var pointId = $(this).data('id');
+        var key = sessionStorage.appKey;
         $.confirm({
             title: 'Xác nhận',
             content: 'Bạn chắc chắn muốn xóa ?',
@@ -165,7 +171,8 @@ $(document).ready(function () {
                             url: baseUrl + '?action=delete-point',
                             dataType: 'text',
                             data: {
-                                point_id: pointId
+                                point_id: pointId,
+                                key: key
                             },
                             success: function (result) {
                                 result = $.parseJSON(result);

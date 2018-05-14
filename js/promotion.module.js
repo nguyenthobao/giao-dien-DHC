@@ -128,6 +128,8 @@ $(document).ready(function () {
             stringImage = v.currentSrc;
         });
 
+        var key = sessionStorage.appKey;
+
         $.ajax({
             type: 'POST',
             url: baseUrl + '?action=edit-promotion',
@@ -140,7 +142,8 @@ $(document).ready(function () {
                 time_end: dateToTimeStamp($('#timeEnd').val()),
                 promotion_detail: $('#promotionDetail').val(),
                 promotion_note: $('#promotionNote').val(),
-                promotion_image: stringImage
+                promotion_image: stringImage,
+                key: key
             },
             success: function (result) {
                 result = $.parseJSON(result);
@@ -169,6 +172,8 @@ $(document).ready(function () {
             stringImage = v.currentSrc;
         });
 
+        var key = sessionStorage.appKey;
+
         $.ajax({
             type: 'POST',
             url: baseUrl + '?action=add-promotion',
@@ -180,7 +185,8 @@ $(document).ready(function () {
                 time_end: dateToTimeStamp($('#timeEnd').val()),
                 promotion_detail: $('#promotionDetail').val(),
                 promotion_note: $('#promotionNote').val(),
-                promotion_image: stringImage
+                promotion_image: stringImage,
+                key: key
             },
             success: function (result) {
                 result = $.parseJSON(result);
@@ -205,6 +211,7 @@ $(document).ready(function () {
     /*Event delete promotion*/
     $('body').on('click', '.delete-promotion', function () {
         var promotionId = $(this).data('id');
+        var key = sessionStorage.appKey;
         $.confirm({
             title: 'Xác nhận',
             content: 'Bạn chắc chắn muốn xóa ?',
@@ -218,7 +225,8 @@ $(document).ready(function () {
                             url: baseUrl + '?action=delete-promotion',
                             dataType: 'text',
                             data: {
-                                promotion_id: promotionId
+                                promotion_id: promotionId,
+                                key: key
                             },
                             success: function (result) {
                                 result = $.parseJSON(result);
