@@ -432,7 +432,7 @@ function getListPromotionById(id, isView){
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;
-            $('#promotionName').val(promotionData.promotion_name);
+            $('#promotionName').val(htmlDecode(promotionData.promotion_name));
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
@@ -440,7 +440,7 @@ function getListPromotionById(id, isView){
             }
 
             if(promotionData.promotion_note !== null) {
-                $('#promotionNote').val(promotionData.promotion_note);
+                $('#promotionNote').val(htmlDecode(promotionData.promotion_note));
             }
 
             if(promotionData.time_start !== null && promotionData.time_start !== '') {

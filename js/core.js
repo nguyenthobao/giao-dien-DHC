@@ -1,5 +1,7 @@
-var baseApi = 'http://dhc.blo.com.vn/';
-var baseUrl = 'http://admindhc.blo.com.vn/restful/';
+/*var baseApi = 'http://dhc.blo.com.vn/';
+var baseUrl = 'http://admindhc.blo.com.vn/restful/';*/
+var baseApi = 'http://dhc.api/';
+var baseUrl = 'http://admin.dhc.api/restful/';
 var key = '';
 
 $(document).ready(function () {
@@ -79,4 +81,10 @@ function dateToTimeStamp(dateStr) {
     var unixTime = Date.parse(newDateStr);
 
     return unixTime/1000;
+}
+
+function htmlDecode(input){
+    var e = document.createElement('div');
+    e.innerHTML = input;
+    return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
 }

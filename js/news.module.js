@@ -378,7 +378,7 @@ function getListNewsById(id, isView){
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var newsData = result.data.result;
-            $('#newsName').val(newsData.news_name);
+            $('#newsName').val(htmlDecode(newsData.news_name));
             $('#newsType').val(newsData.news_type).change();
 
             if(newsData.news_description !== null) {
@@ -391,7 +391,7 @@ function getListNewsById(id, isView){
             }
 
             if(newsData.news_note !== null) {
-                $('#newsNote').val(newsData.news_note);
+                $('#newsNote').val(htmlDecode(newsData.news_note));
             }
 
             if(newsData.news_image !== '') {

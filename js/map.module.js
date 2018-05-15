@@ -338,7 +338,7 @@ function getListPointById(id, isView){
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var pointData = result.data.result;
-            $('#pointName').val(pointData.point_name);
+            $('#pointName').val(htmlDecode(pointData.point_name));
             $('#pointType').val(pointData.point_type).change();
             $('#pointLat').val(pointData.lat);
             $('#pointLong').val(pointData.long);
@@ -347,7 +347,7 @@ function getListPointById(id, isView){
             }
 
             if(pointData.point_note !== null) {
-                $('#pointNote').val(pointData.point_note);
+                $('#pointNote').val(htmlDecode(pointData.point_note));
             }
 
             if(pointData.point_images !== '') {
