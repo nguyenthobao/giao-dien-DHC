@@ -41,7 +41,7 @@
             <form action="#">
                 <div class="form-group">
                     <label for="username">Tài khoản</label>
-                    <input type="email" class="form-control" id="username" autocomplete="false" placeholder="Điền tài khoản">
+                    <input type="text" class="form-control" id="username" autocomplete="false" placeholder="Điền tài khoản">
                 </div>
                 <div class="form-group">
                     <label for="password">Mật khẩu</label>
@@ -61,8 +61,43 @@
 <script src="js/jquery-confirm-v3.3.0/js/jquery-confirm.js"></script>
 
 <script>
-    var baseUrl = 'http://admindhc.blo.com.vn/restful/';
+    // var baseUrl = 'http://admindhc.blo.com.vn/restful/';
+    var baseUrl = 'http://admin.dhc.api/restful/';
+    var countFailed = 0;
     $(document).ready(function () {
+        if (typeof(Storage) !== "undefined") {
+            if(sessionStorage.countFailed !== undefined) {
+                countFailed = sessionStorage.countFailed;
+                if(countFailed >= 3) {
+                    var time = 10000 * (countFailed - 2);
+
+                    $.alert({
+                        title: 'Cảnh báo!',
+                        type: 'red',
+                        typeAnimated: true,
+                        content: 'Bạn đã đăng nhập sai '+countFailed+' lần, vui lòng chờ trong '+time/1000+'s',
+                    });
+
+                    $('#login').text('Đã khóa');
+                    $('#login').prop('disabled', true);
+                    $('.form-control').prop('disabled', true);
+
+
+                    setTimeout(function(){
+                        $('.form-control').prop('disabled', false);
+                        $('#login').prop('disabled', false);
+                        $('#login').text('Đăng nhập');
+                    }, time);
+                }
+            }
+        } else {
+            $.alert({
+                title: 'Cảnh báo!',
+                type: 'red',
+                typeAnimated: true,
+                content: 'Trình duyệt quá cũ, hệ thống không thể hoạt động',
+            });
+        }
         /*Check login*/
     if (typeof(Storage) !== "undefined") {
         if(sessionStorage.appKey !== undefined && sessionStorage.appKey !== '') {
@@ -102,17 +137,50 @@
 
         /*Login*/
         $('body').on('click', '#login', function () {
+
+            var username = $('#username').val();
+            var password = $('#password').val();
+
+            if(username.length < 4) {
+                $.alert({
+                    title: 'Cảnh báo!',
+                    type: 'red',
+                    typeAnimated: true,
+                    content: 'Tài khoản ít nhất 4 ký tự',
+                    onSelect: function () {
+                        $('#username').focus();
+                    }
+                });
+                return;
+            }
+
+            if(password.length < 6) {
+                $.alert({
+                    title: 'Cảnh báo!',
+                    type: 'red',
+                    typeAnimated: true,
+                    content: 'Mật khẩu ít nhất 6 ký tự',
+                    onSelect: function () {
+                        $('#password').focus();
+                    }
+                });
+                return;
+            }
+
+            $(this).text('Đang đăng nhập');
+            $(this).prop('disabled', true);
+            $('.form-control').prop('disabled', true);
+
             $.ajax({
                 type: 'POST',
                 url: baseUrl + '?action=login',
                 dataType: 'text',
                 data: {
-                    username: $('#username').val(),
-                    password: $('#password').val()
+                    username: username,
+                    password: password
                 },
                 success: function (result) {
                     result = $.parseJSON(result);
-                    console.log(result);
                     if(result.code == 200) {
                         sessionStorage.appKey = result.data.result.accessToken;
                         $.dialog({
@@ -122,14 +190,40 @@
                                 e.preventDefault();
                             }
                         });
+                        sessionStorage.countFailed = 0;
                         window.location.replace("index.html");
                     } else {
-                        $.alert({
-                            title: 'Cảnh báo!',
-                            type: 'red',
-                            typeAnimated: true,
-                            content: 'Tài khoản hoặc mật khẩu không đúng',
-                        });
+                        countFailed++;
+                        sessionStorage.countFailed = countFailed;
+                        if(countFailed >= 3) {
+                            var time = 10000 * (countFailed - 2);
+
+                            $.alert({
+                                title: 'Cảnh báo!',
+                                type: 'red',
+                                typeAnimated: true,
+                                content: 'Bạn đã đăng nhập sai '+countFailed+' lần, vui lòng chờ trong '+time/1000+'s',
+                            });
+
+                            $('#login').text('Đã khóa');
+
+                            setTimeout(function(){
+                                $('.form-control').prop('disabled', false);
+                                $('#login').prop('disabled', false);
+                                $('#login').text('Đăng nhập');
+                            }, time);
+                        } else {
+                            $.alert({
+                                title: 'Cảnh báo!',
+                                type: 'red',
+                                typeAnimated: true,
+                                content: 'Tài khoản hoặc mật khẩu không đúng'
+                            });
+
+                            $('.form-control').prop('disabled', false);
+                            $('#login').prop('disabled', false);
+                            $('#login').text('Đăng nhập');
+                        }
                     }
                 },
                 error: function () {
@@ -137,9 +231,9 @@
                         title: 'Cảnh báo!',
                         type: 'red',
                         typeAnimated: true,
-                        content: 'Không thể kết nối',
+                        content: 'Không thể kết nối'
                     });
-                }
+                },
             });
         });
 });
