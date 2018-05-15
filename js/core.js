@@ -1,7 +1,5 @@
 var baseApi = 'http://dhc.blo.com.vn/';
 var baseUrl = 'http://admindhc.blo.com.vn/restful/';
-/*var baseApi = 'http://dhc.api/';
-var baseUrl = 'http://admin.dhc.api/restful/';*/
 var key = '';
 
 $(document).ready(function () {
@@ -87,4 +85,41 @@ function htmlDecode(input){
     var e = document.createElement('div');
     e.innerHTML = input;
     return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+}
+
+function buildPaging(page, totalPage, className) {
+    html = '';
+    if(page == 0) {
+        html += '<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Trước</a></li>';
+    } else {
+        html += '<li class="page-item"><a class="page-link '+className+'" data-page="' + (page - 1) + '" href="#" tabindex="-1">Trước</a></li>';
+    }
+
+    var count = page;
+
+    var limitPage = 3;
+    if(totalPage < 3) {
+        limitPage = totalPage;
+    }
+
+    if((totalPage - page) <= 3)
+    {
+        count = totalPage - limitPage;
+    }
+
+    for(var i = count; i < (count + limitPage) ; i++) {
+        if(i == page) {
+            html += '<li class="page-item active"><a class="page-link '+className+'" href="#">' + (i+1) + '</a></li>';
+        } else {
+            html += '<li class="page-item"><a class="page-link '+className+'" data-page="' + i + '" href="#">' + (i+1) + '</a></li>';
+        }
+    }
+
+    if(page == (totalPage - 1)) {
+        html += '<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Tiếp</a></li>';
+    } else {
+        html += '<li class="page-item"><a class="page-link '+className+'" data-page="' + (i + 1) + '" href="#" tabindex="-1">Tiếp</a></li>';
+    }
+
+    return html;
 }

@@ -1,7 +1,12 @@
+var totalNewsPage = 0;
+var classNewsPage = 'news-page';
 $(document).ready(function () {
     /*Get list news*/
     $('#tab4').change(function () {
-        getListNews();
+        getListNews(0);
+
+        html = buildPaging(0, totalNewsPage, classNewsPage);
+        $('#page-news').html(html);
 
         /*Build form news*/
         buildFormNews();
@@ -43,6 +48,18 @@ $(document).ready(function () {
         } else {
             alert('Không chọn quá 1 ảnh');
         }
+    });
+
+    $('body').on('click', '.'+classNewsPage, function () {
+        var page = $(this).data('page');
+
+        if(page !== undefined) {
+            getListNews(page);
+            html = buildPaging(page, totalNewsPage, classNewsPage);
+            $('#page-news').html(html);
+        }
+
+        return false;
     });
 
     /*Add news button*/
@@ -93,7 +110,9 @@ $(document).ready(function () {
                 switch (result.code) {
                     case 200:
                         $('#modalForm').modal('hide');
-                        getListNews();
+                        getListNews(0);
+                        html = buildPaging(0, totalNewsPage, classNewsPage);
+                        $('#page-news').html(html);
                         break;
                     case 401:
                         $.alert({
@@ -192,7 +211,9 @@ $(document).ready(function () {
                 switch (result.code) {
                     case 200:
                         $('#modalForm').modal('hide');
-                        getListNews();
+                        getListNews(0);
+                        html = buildPaging(0, totalNewsPage, classNewsPage);
+                        $('#page-news').html(html);
                         break;
                     case 401:
                         $.alert({
@@ -248,7 +269,9 @@ $(document).ready(function () {
 
                                 switch (result.code) {
                                     case 200:
-                                        getListNews();
+                                        getListNews(0);
+                                        html = buildPaging(0, totalNewsPage, classNewsPage);
+                                        $('#page-news').html(html);
                                         break;
                                     case 401:
                                         $.alert({
@@ -287,15 +310,20 @@ $(document).ready(function () {
 });
 
 /*Get list news ajax*/
-function getListNews() {
+function getListNews(page) {
     $('#news').html('');
     $.ajax({
         url: baseUrl + '?action=get-all-news',
         method: 'POST',
         dataType: 'text',
+        data: {
+            'page': page
+        },
+        async: false,
         success: function (result) {
             result = $.parseJSON(result);
             newsData = result.data.results;
+            totalNewsPage = result.data.totalPage;
             var index = 1;
             $.each(newsData, function (k, v) {
                 html = '<tr>';
@@ -458,3 +486,4 @@ function getListNewsById(id, isView){
         }
     });
 }
+

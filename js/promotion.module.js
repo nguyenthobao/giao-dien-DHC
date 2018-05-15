@@ -1,8 +1,11 @@
-
+var totalPromotionPage = 0;
+var classPromotionPage = 'promotion-page';
 $(document).ready(function () {
     /*Get list news*/
     $('#tab3').change(function () {
-        getListPromotion();
+        getListPromotion(0);
+        html = buildPaging(0, totalPromotionPage, classPromotionPage);
+        $('#page-promotion').html(html);
 
         /*Build form news*/
         buildFormPromotion();
@@ -150,7 +153,9 @@ $(document).ready(function () {
                 switch (result.code) {
                     case 200:
                         $('#modalForm').modal('hide');
-                        getListPromotion();
+                        getListPromotion(0);
+                        html = buildPaging(0, totalPromotionPage, classPromotionPage);
+                        $('#page-promotion').html(html);
                         break;
                     case 401:
                         $.alert({
@@ -209,7 +214,9 @@ $(document).ready(function () {
                 switch (result.code) {
                     case 200:
                         $('#modalForm').modal('hide');
-                        getListPromotion();
+                        getListPromotion(0);
+                        html = buildPaging(0, totalPromotionPage, classPromotionPage);
+                        $('#page-promotion').html(html);
                         break;
                     case 401:
                         $.alert({
@@ -239,6 +246,18 @@ $(document).ready(function () {
         });
     });
 
+    $('body').on('click', '.'+classPromotionPage, function () {
+        var page = $(this).data('page');
+
+        if(page !== undefined) {
+            getListPromotion(page);
+            html = buildPaging(page, totalPromotionPage, classPromotionPage);
+            $('#page-promotion').html(html);
+        }
+
+        return false;
+    });
+
     /*Event delete promotion*/
     $('body').on('click', '.delete-promotion', function () {
         var promotionId = $(this).data('id');
@@ -265,7 +284,9 @@ $(document).ready(function () {
                                 switch (result.code) {
                                     case 200:
                                         $('#modalForm').modal('hide');
-                                        getListPromotion();
+                                        getListPromotion(0);
+                                        html = buildPaging(0, totalPromotionPage, classPromotionPage);
+                                        $('#page-promotion').html(html);
                                         break;
                                     case 401:
                                         $.alert({
@@ -303,15 +324,22 @@ $(document).ready(function () {
     });
 });
 
-function getListPromotion() {
+function getListPromotion(page) {
     $('#promotion').html('');
     $.ajax({
         url: baseUrl + '?action=get-all-promotion',
         method: 'POST',
+        dataType: 'text',
+        data: {
+            'page': page,
+        },
+        async: false,
         success: function (result) {
             result = $.parseJSON(result);
 
             promotionData = result.data.results;
+            totalPromotionPage = result.data.totalPage;
+
             var index = 1;
             $.each(promotionData, function (k, v) {
                 html = '<tr>';

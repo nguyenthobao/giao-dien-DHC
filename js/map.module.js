@@ -1,3 +1,5 @@
+var totalPointPage = 0;
+var classPointPage = 'point-page';
 $(document).ready(function () {
 
     $('body').on('click', '.btn-upload-point', function () {
@@ -58,7 +60,9 @@ $(document).ready(function () {
                 switch (result.code) {
                     case 200:
                         $('#modalForm').modal('hide');
-                        getListPoint();
+                        getListPoint(0);
+                        html = buildPaging(page, totalPointPage, classPointPage);
+                        $('#page-point').html(html);
                         break;
                     case 401:
                         $.alert({
@@ -117,7 +121,9 @@ $(document).ready(function () {
                 switch (result.code) {
                     case 200:
                         $('#modalForm').modal('hide');
-                        getListPoint();
+                        getListPoint(0);
+                        html = buildPaging(page, totalPointPage, classPointPage);
+                        $('#page-point').html(html);
                         break;
                     case 401:
                         $.alert({
@@ -149,7 +155,9 @@ $(document).ready(function () {
 
     /*Get list point*/
     $('#tab2').change(function () {
-        getListPoint();
+        getListPoint(0);
+        html = buildPaging(0, totalPointPage, classPointPage);
+        $('#page-point').html(html);
 
         /*Build form point*/
         buildFormPoint();
@@ -208,7 +216,9 @@ $(document).ready(function () {
                                 result = $.parseJSON(result);
                                 switch (result.code) {
                                     case 200:
-                                        getListPoint();
+                                        getListPoint(0);
+                                        html = buildPaging(page, totalPointPage, classPointPage);
+                                        $('#page-point').html(html);
                                         break;
                                     case 401:
                                         $.alert({
@@ -264,6 +274,18 @@ $(document).ready(function () {
         $('#addPoint').hide();
         $('#editPoint').hide();
 
+    });
+
+    $('body').on('click', '.'+classPointPage, function () {
+        var page = $(this).data('page');
+
+        if(page !== undefined) {
+            getListPoint(page);
+            html = buildPaging(page, totalPointPage, classPointPage);
+            $('#page-point').html(html);
+        }
+
+        return false;
     });
 
     /*Event edit point*/
@@ -328,14 +350,20 @@ function UploadImagePoint() {
 }
 
 /*Get list point ajax*/
-function getListPoint() {
+function getListPoint(page) {
     $('#point').html('');
     $.ajax({
         url: baseUrl + '?action=get-all-point',
         method: 'POST',
+        dataType: 'text',
+        data: {
+            'page': page
+        },
+        async: false,
         success: function (result) {
             result = $.parseJSON(result);
             pointData = result.data.results;
+            totalPointPage = result.data.totalPage;
             var index = 1;
             $.each(pointData, function (k, v) {
                 html = '<tr>';
