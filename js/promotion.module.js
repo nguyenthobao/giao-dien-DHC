@@ -147,16 +147,31 @@ $(document).ready(function () {
             },
             success: function (result) {
                 result = $.parseJSON(result);
-                if(result.code == 200){
-                    $('#modalForm').modal('hide');
-                    getListPromotion();
-                } else {
-                    $.alert({
-                        title: 'Cảnh báo!',
-                        type: 'red',
-                        typeAnimated: true,
-                        content: result.message,
-                    });
+                switch (result.code) {
+                    case 200:
+                        $('#modalForm').modal('hide');
+                        getListPromotion();
+                        break;
+                    case 401:
+                        $.alert({
+                            title: 'Cảnh báo!',
+                            type: 'red',
+                            typeAnimated: true,
+                            content: '<p>Hết hạn đăng nhập</p><b>Vui lòng đăng nhập lại</b>',
+                            onClose: function () {
+                                sessionStorage.clear();
+                                window.location.replace("login.html");
+                            }
+                        });
+                        break;
+                    default:
+                        $.alert({
+                            title: 'Cảnh báo!',
+                            type: 'red',
+                            typeAnimated: true,
+                            content: result.message
+                        });
+                        break;
                 }
             },
             error: function () {
@@ -190,16 +205,32 @@ $(document).ready(function () {
             },
             success: function (result) {
                 result = $.parseJSON(result);
-                if(result.code == 200){
-                    $('#modalForm').modal('hide');
-                    getListPromotion();
-                } else {
-                    $.alert({
-                        title: 'Cảnh báo!',
-                        type: 'red',
-                        typeAnimated: true,
-                        content: result.message
-                    });
+
+                switch (result.code) {
+                    case 200:
+                        $('#modalForm').modal('hide');
+                        getListPromotion();
+                        break;
+                    case 401:
+                        $.alert({
+                            title: 'Cảnh báo!',
+                            type: 'red',
+                            typeAnimated: true,
+                            content: '<p>Hết hạn đăng nhập</p><b>Vui lòng đăng nhập lại</b>',
+                            onClose: function () {
+                                sessionStorage.clear();
+                                window.location.replace("login.html");
+                            }
+                        });
+                        break;
+                    default:
+                        $.alert({
+                            title: 'Cảnh báo!',
+                            type: 'red',
+                            typeAnimated: true,
+                            content: result.message
+                        });
+                        break;
                 }
             },
             error: function () {
@@ -230,15 +261,32 @@ $(document).ready(function () {
                             },
                             success: function (result) {
                                 result = $.parseJSON(result);
-                                if(result.code == 200){
-                                    getListPromotion();
-                                } else {
-                                    $.alert({
-                                        title: 'Cảnh báo!',
-                                        type: 'red',
-                                        typeAnimated: true,
-                                        content: result.message
-                                    });
+
+                                switch (result.code) {
+                                    case 200:
+                                        $('#modalForm').modal('hide');
+                                        getListPromotion();
+                                        break;
+                                    case 401:
+                                        $.alert({
+                                            title: 'Cảnh báo!',
+                                            type: 'red',
+                                            typeAnimated: true,
+                                            content: '<p>Hết hạn đăng nhập</p><b>Vui lòng đăng nhập lại</b>',
+                                            onClose: function () {
+                                                sessionStorage.clear();
+                                                window.location.replace("login.html");
+                                            }
+                                        });
+                                        break;
+                                    default:
+                                        $.alert({
+                                            title: 'Cảnh báo!',
+                                            type: 'red',
+                                            typeAnimated: true,
+                                            content: result.message
+                                        });
+                                        break;
                                 }
                             },
                             error: function () {

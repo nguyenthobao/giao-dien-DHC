@@ -1,7 +1,7 @@
-/*var baseApi = 'http://dhc.blo.com.vn/';
-var baseUrl = 'http://admindhc.blo.com.vn/restful/';*/
-var baseApi = 'http://dhc.api/';
-var baseUrl = 'http://admin.dhc.api/restful/';
+var baseApi = 'http://dhc.blo.com.vn/';
+var baseUrl = 'http://admindhc.blo.com.vn/restful/';
+/*var baseApi = 'http://dhc.api/';
+var baseUrl = 'http://admin.dhc.api/restful/';*/
 var key = '';
 
 $(document).ready(function () {
