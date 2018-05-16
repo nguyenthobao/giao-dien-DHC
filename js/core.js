@@ -1,5 +1,7 @@
 var baseApi = 'http://dhc.blo.com.vn/';
 var baseUrl = 'http://admindhc.blo.com.vn/restful/';
+/*var baseApi = 'http://dhc.api/';
+var baseUrl = 'http://admin.dhc.api/restful/';*/
 var key = '';
 
 $(document).ready(function () {
@@ -122,4 +124,34 @@ function buildPaging(page, totalPage, className) {
     }
 
     return html;
+}
+
+function buildFroalaEditor(id) {
+    $('#'+id).froalaEditor({
+        toolbarButtons: [
+            'fullscreen',
+            'bold',
+            'italic',
+            'underline',
+            'strikeThrough',
+            'subscript',
+            'superscript', '|',
+            'fontFamily',
+            'fontSize',
+            'color',
+            'inlineStyle',
+            'paragraphStyle', '|',
+            'paragraphFormat',
+            'align', 'formatOL',
+            'formatUL', 'outdent',
+            'indent', 'quote', '-',
+            'insertImage',
+            'insertVideo',
+            'insertTable', '|', 'emoticons',
+            'specialCharacters', 'insertHR', 'selectAll',
+            'clearFormatting', '|', 'print', 'help', 'html', '|', 'undo', 'redo'
+        ],
+        zIndex: 2501,
+        height: 300,
+    });
 }

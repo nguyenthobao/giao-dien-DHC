@@ -61,8 +61,8 @@
 <script src="js/jquery-confirm-v3.3.0/js/jquery-confirm.js"></script>
 
 <script>
-    // var baseUrl = 'http://admindhc.blo.com.vn/restful/';
-    var baseUrl = 'http://admin.dhc.api/restful/';
+    var baseUrl = 'http://admindhc.blo.com.vn/restful/';
+    // var baseUrl = 'http://admin.dhc.api/restful/';
     var countFailed = 0;
     $(document).ready(function () {
         if (typeof(Storage) !== "undefined") {
@@ -237,5 +237,12 @@
             });
         });
 });
+
+    /*Event enter keypress*/
+    $(document).keypress(function(e) {
+        if(e.which == 13) {
+            $('#login').click();
+        }
+    });
 </script>
 </html>

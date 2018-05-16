@@ -49,7 +49,7 @@ $(document).ready(function () {
                 point_type: $('#pointType').val(),
                 lat: $('#pointLat').val(),
                 long: $('#pointLong').val(),
-                point_detail: CKEDITOR.instances.pointDetail.getData(),
+                point_detail: $('#pointDetail').froalaEditor('html.get'),
                 point_note: $('#pointNote').val(),
                 point_images: stringImage,
                 key: key
@@ -111,7 +111,7 @@ $(document).ready(function () {
                 point_type: $('#pointType').val(),
                 lat: $('#pointLat').val(),
                 long: $('#pointLong').val(),
-                point_detail: CKEDITOR.instances.pointDetail.getData(),
+                point_detail: $('#pointDetail').froalaEditor('html.get'),
                 point_note: $('#pointNote').val(),
                 point_images: stringImage,
                 key: key
@@ -162,8 +162,8 @@ $(document).ready(function () {
         /*Build form point*/
         buildFormPoint();
 
-        /*Ckeditor*/
-        CKEDITOR.replace('pointDetail');
+        /*Froala*/
+        buildFroalaEditor('pointDetail');
 
         $('#imgUpload').change(function(){
             if($(this).val() !== '')
@@ -415,7 +415,7 @@ function getListPointById(id, isView){
             $('#pointLat').val(pointData.lat);
             $('#pointLong').val(pointData.long);
             if(pointData.point_detail !== null) {
-                CKEDITOR.instances.pointDetail.setData(pointData.point_detail);
+                $('#pointDetail').froalaEditor('html.set', pointData.point_detail);
             }
 
             if(pointData.point_note !== null) {

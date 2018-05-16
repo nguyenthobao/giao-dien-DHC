@@ -11,8 +11,8 @@ $(document).ready(function () {
         /*Build form news*/
         buildFormNews();
 
-        /*Ckeditor*/
-        CKEDITOR.replace('newsContent');
+        /*Froala*/
+        buildFroalaEditor('newsContent');
 
         $('#imgUpload').change(function(){
             if($(this).val() !== '')
@@ -99,7 +99,7 @@ $(document).ready(function () {
                 news_name: $('#newsName').val(),
                 news_type: $('#newsType').val(),
                 news_description: $('#newsDescription').val(),
-                news_content: CKEDITOR.instances.newsContent.getData(),
+                news_content: $('#newsContent').froalaEditor('html.get'),
                 news_note: $('#newsNote').val(),
                 news_image: stringImage,
                 key: key
@@ -200,7 +200,7 @@ $(document).ready(function () {
                 news_name: $('#newsName').val(),
                 news_type: $('#newsType').val(),
                 news_description: $('#newsDescription').val(),
-                news_content: CKEDITOR.instances.newsContent.getData(),
+                news_content: $('#newsContent').froalaEditor('html.get'),
                 news_note: $('#newsNote').val(),
                 news_image: stringImage,
                 key: key
@@ -461,8 +461,7 @@ function getListNewsById(id, isView){
             }
 
             if(newsData.news_content !== null) {
-                // $('#newsContent').val(newsData.news_content);
-                CKEDITOR.instances.newsContent.setData(newsData.news_content);
+                $('#newsContent').froalaEditor('html.set', newsData.news_content);
             }
 
             if(newsData.news_note !== null) {
