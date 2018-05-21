@@ -1,677 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/License.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/froala_editor.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/froala_editor.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/froala_editor.pkgd.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/froala_editor.pkgd.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/froala_style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/froala_style.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/char_counter.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/char_counter.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/code_view.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/code_view.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/colors.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/colors.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/draggable.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/draggable.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/emoticons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/emoticons.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/file.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/file.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/fullscreen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/fullscreen.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/help.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/help.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/image.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/image.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/image_manager.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/image_manager.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/line_breaker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/line_breaker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/quick_insert.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/quick_insert.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/special_characters.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/special_characters.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/table.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/table.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/video.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/plugins/video.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/dark.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/gray.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/gray.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/red.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/royal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/themes/royal.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/third_party/embedly.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/third_party/embedly.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/third_party/spell_checker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/css/third_party/spell_checker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/editor.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/at.js.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/aviary/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/bootstrap/grid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/bootstrap/lists.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/bootstrap/modal.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/code-mirror.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/font-awesome-5-css.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/font-awesome-5-js.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/jquery/mobile.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/jquery/ui_modal.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/require_js/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/require_js/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/require_js/js/lib/require.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/3rd-party/spell-checker/spell-checker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/api/get_html.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/api/init_destroy.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/api/insert_html.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/api/live_code_preview.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/api/live_content_preview.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/api/selection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/buttons/custom_buttons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/buttons/custom_dropdown.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/buttons/external_button.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/buttons/subscript_superscript.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/events/blur_focus.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/events/content_changed.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/events/drop.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/events/image_removed.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/events/initialized_destroy.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/file_s3_upload.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/image/custom_button.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/image/default_width.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/image/image_styles.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/image/insert_base64.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/image_s3_upload.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/init_inside_iframe/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/init_inside_iframe/content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/init_inside_iframe/inline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/init_on_click/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/init_on_click/inline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/init_on_click/two_editors.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/initialization/edit_in_popup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/initialization/init_on_button.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/initialization/init_on_click.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/initialization/init_on_h1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/initialization/init_on_image.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/initialization/init_on_link.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/initialization/initialized_event.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/international/direction_rtl.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/international/language.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/international/rtl_ltr_buttons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/link/custom_validation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/link/link_styles.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/link/predefined_links.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/misc/scrollable_container.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/misc/scrollable_container_inline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/paragraph_modes/enter_br.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/paragraph_modes/enter_div.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/paragraph_modes/enter_p.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/paste/attrs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/paste/plain.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/paste/tags.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/plugins/char_counter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/plugins/full_screen.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/plugins/line_breaker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/plugins/quick_insert.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/disable_edit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/disable_paragraphs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/full.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/full_page.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/iframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/init_on_click.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/textarea.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/toolbar_buttons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/toolbar_inline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/two_instances.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popular/z_index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popups/colors.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popups/custom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/popups/emoticons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/styling/adjustable_height.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/styling/font_family.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/styling/height.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/styling/inline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/styling/paragraph.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/styling/placeholder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/styling/width.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/table/cell_style.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/table/insert_helper.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/table/nested.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/table/resize.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/table/style.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/bottom_offset_scrollable_container.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/bottom_scrollable_container.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/core.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/full_br.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/full_page_bottom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/image_manager.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/init_on_click/full_page.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/max_height.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/toolbar_inline_two.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/top_offset_scrollable_container.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/tests/top_scrollable_container.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/themes/dark.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/themes/gray.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/themes/red.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/themes/royal.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/bottom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/bottom_offset.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/buttons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/external.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/external_inline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/inline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/inline_selection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/offset.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/show_selection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/toolbar/sticky.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/typing/keep_format.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/typing/shortcuts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/html/typing/tab.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/img/photo1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/froala_editor.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/bs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/en_ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/en_gb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/et.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/fa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/ko.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/me.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/nb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/pt_br.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/pt_pt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/sr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/uk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/vi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/zh_cn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/languages/zh_tw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/align.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/char_counter.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/code_beautifier.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/code_view.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/colors.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/draggable.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/emoticons.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/entities.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/file.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/font_family.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/font_size.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/forms.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/fullscreen.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/help.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/image.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/image_manager.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/inline_style.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/line_breaker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/link.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/lists.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/paragraph_format.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/paragraph_style.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/print.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/quick_insert.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/quote.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/save.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/special_characters.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/table.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/url.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/video.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/plugins/word_paste.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/third_party/embedly.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/third_party/image_aviary.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/js/third_party/spell_checker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/froala_editor/package.json" />
+    <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="add plugin froala editor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/CHANGES.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/adapters/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/build-config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/ckeditor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/contents.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/bn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/bs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/de-ch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/en-au.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/en-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/en-gb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/eo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/es-mx.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/fo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/fr-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/gu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/is.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ka.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ku.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/mn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/no.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/oc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/pt-br.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/si.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/sr-latn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/tt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/ug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/zh-cn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/lang/zh.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/colordialog/dialogs/colordialog.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/copyformatting/cursors/cursor.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/copyformatting/styles/copyformatting.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/div/dialogs/div.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/find/dialogs/find.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/flash/dialogs/flash.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/flash/images/placeholder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/checkbox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/hiddenfield.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/radio.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/select.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/textarea.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/dialogs/textfield.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/forms/images/hiddenfield.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/icons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/icons_hidpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/iframe/dialogs/iframe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/iframe/images/placeholder.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/image/images/noimage.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/link/images/anchor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/liststyle/dialogs/liststyle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/magicline/images/icon-rtl.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/pagebreak/images/pagebreak.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/preview/preview.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/scayt/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/scayt/dialogs/dialog.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_address.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_blockquote.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_div.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_h1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_h2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_h3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_h4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_h5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_h6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_p.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/showblocks/images/block_pre.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/dialogs/smiley.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/angel_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/angel_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/angry_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/angry_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/broken_heart.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/broken_heart.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/confused_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/confused_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/cry_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/cry_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/devil_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/devil_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/embaressed_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/embarrassed_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/embarrassed_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/envelope.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/envelope.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/heart.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/heart.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/kiss.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/kiss.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/lightbulb.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/lightbulb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/omg_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/omg_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/regular_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/regular_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/sad_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/sad_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/shades_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/shades_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/teeth_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/teeth_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/thumbs_down.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/thumbs_down.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/thumbs_up.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/thumbs_up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/tongue_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/tongue_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/tounge_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/wink_smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/smiley/images/wink_smile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/tableselection/styles/tableselection.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/templates/dialogs/templates.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/templates/dialogs/templates.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/templates/templates/default.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/templates/templates/images/template1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/templates/templates/images/template2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/templates/templates/images/template3.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/widget/images/handle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/css/samples.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/img/github-top.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/img/header-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/img/header-separator.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/img/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/img/navigation-tip.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/js/sample.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/js/sf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/ajax.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/api.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/appendto.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/assets/inlineall/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/assets/posteddata.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/assets/sample.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/assets/uilanguages/languages.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/datafiltering.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/dialog/assets/my_dialog.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/dialog/dialog.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/divreplace.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/enterkey/enterkey.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/htmlwriter/outputforflash.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/htmlwriter/outputhtml.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/inlineall.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/inlinebycode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/inlinetextarea.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/jquery.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/magicline/magicline.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/readonly.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/replacebyclass.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/replacebycode.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/sample.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/sample.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/sample_posteddata.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/tabindex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/toolbar/toolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/uicolor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/uilanguages.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/old/xhtmlstyle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/font/config.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/dialog.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/dialog_ie.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/dialog_ie8.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/editor.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/editor_gecko.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/editor_ie.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/editor_ie8.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/editor_iequirks.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/icons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/icons_hidpi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/lock-open.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/lock.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/refresh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/images/spinner.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/skins/moono-lisa/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/ckeditor/styles.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/core.js" afterPath="$PROJECT_DIR$/js/core.js" />
-      <change beforePath="$PROJECT_DIR$/js/map.module.js" afterPath="$PROJECT_DIR$/js/map.module.js" />
-      <change beforePath="$PROJECT_DIR$/js/news.module.js" afterPath="$PROJECT_DIR$/js/news.module.js" />
-      <change beforePath="$PROJECT_DIR$/js/promotion.module.js" afterPath="$PROJECT_DIR$/js/promotion.module.js" />
-      <change beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change beforePath="$PROJECT_DIR$/restful/index.php" afterPath="$PROJECT_DIR$/restful/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -682,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="250" column="89" lean-forward="false" selection-start-line="250" selection-start-column="89" selection-end-line="250" selection-end-column="89" />
+            <state relative-caret-position="306">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -695,8 +27,8 @@
       <file leaf-file-name="news.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/news.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="463" column="82" lean-forward="true" selection-start-line="463" selection-start-column="16" selection-end-line="463" selection-end-column="82" />
+            <state relative-caret-position="7871">
+              <caret line="463" column="82" lean-forward="false" selection-start-line="463" selection-start-column="16" selection-end-line="463" selection-end-column="82" />
               <folding>
                 <marker date="1526442516681" expanded="true" signature="16268:16281" ph="..." />
               </folding>
@@ -717,8 +49,8 @@
       <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="516" column="0" lean-forward="true" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
+            <state relative-caret-position="7259">
+              <caret line="516" column="0" lean-forward="false" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
@@ -731,17 +63,17 @@
         <entry file="file://$PROJECT_DIR$/restful/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -808,7 +140,6 @@
         <option value="$PROJECT_DIR$/js/htmlentities.js" />
         <option value="$PROJECT_DIR$/js/ckeditor/build-config.js" />
         <option value="$PROJECT_DIR$/js/ckeditor/config.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/map.module.js" />
         <option value="$PROJECT_DIR$/js/news.module.js" />
@@ -816,6 +147,7 @@
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/restful/index.php" />
         <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -826,7 +158,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="168" />
     <option name="y" value="315" />
     <option name="width" value="1378" />
@@ -848,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -869,8 +203,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -927,7 +259,8 @@
       <workItem from="1526353852048" duration="12900000" />
       <workItem from="1526370542093" duration="11846000" />
       <workItem from="1526395877576" duration="7465000" />
-      <workItem from="1526437818682" duration="5157000" />
+      <workItem from="1526437818682" duration="5388000" />
+      <workItem from="1526889190095" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -1146,11 +479,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526379222389</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add plugin froala editor">
+      <created>1526443044663</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1526443044664</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165537000" />
+    <option name="totallyTimeSpent" value="165843000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1162,10 +502,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3524962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35779122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1253,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3604">
           <caret line="212" column="7" lean-forward="true" selection-start-line="212" selection-start-column="7" selection-end-line="212" selection-end-column="7" />
-          <folding>
-            <marker date="1526442276454" expanded="true" signature="19906:19919" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,9 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="90" column="48" lean-forward="true" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-          <folding>
-            <marker date="1526442276454" expanded="true" signature="19906:19919" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="78" column="41" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
-          <folding>
-            <marker date="1526442276454" expanded="true" signature="19906:19919" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1427,87 +758,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html" />
     <entry file="file://$PROJECT_DIR$/js/htmlentities.js" />
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/ckeditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/build-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/contents.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/samples/js/sample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/samples/js/sf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1904">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/ckeditor.js" />
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/LICENSE.md" />
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/build-config.js" />
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/contents.css" />
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/samples/js/sample.js" />
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/samples/js/sf.js" />
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/styles.js" />
     <entry file="file://$PROJECT_DIR$/css/fontawesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ckeditor/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ckeditor/config.js" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="159" column="1" lean-forward="false" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="250" column="89" lean-forward="false" selection-start-line="250" selection-start-column="89" selection-end-line="250" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1515,16 +784,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="417" column="83" lean-forward="false" selection-start-line="417" selection-start-column="16" selection-end-line="417" selection-end-column="83" />
-          <folding>
-            <marker date="1526442276454" expanded="true" signature="19906:19919" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/news.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="463" column="82" lean-forward="true" selection-start-line="463" selection-start-column="16" selection-end-line="463" selection-end-column="82" />
+        <state relative-caret-position="7871">
+          <caret line="463" column="82" lean-forward="false" selection-start-line="463" selection-start-column="16" selection-end-line="463" selection-end-column="82" />
           <folding>
             <marker date="1526442516681" expanded="true" signature="16268:16281" ph="..." />
           </folding>
@@ -1541,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="516" column="0" lean-forward="true" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
+        <state relative-caret-position="7259">
+          <caret line="516" column="0" lean-forward="false" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
@@ -1553,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/restful/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1561,7 +827,15 @@
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
         </state>
       </provider>
