@@ -29,6 +29,16 @@ class AccessApi
                 $url = self::BASE_API.'user/check-login';
                 $this->accessApi($url, $_POST);
                 break;
+            case "change-user-info":
+                $url = self::BASE_API.'user/change-user-info';
+                unset($_POST['key']);
+                $this->accessApi($url, $_POST, $key);
+                break;
+            case "change-password":
+                $url = self::BASE_API.'user/change-password';
+                unset($_POST['key']);
+                $this->accessApi($url, $_POST, $key);
+                break;
             /*Point*/
             case "get-all-point":
                 $url = self::BASE_API.'point/get-all-point';

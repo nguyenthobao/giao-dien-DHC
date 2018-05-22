@@ -4,11 +4,13 @@ var baseUrl = 'http://admindhc.blo.com.vn/restful/';
 var baseUrl = 'http://admin.dhc.api/restful/';*/
 var key = '';
 
+var userInfo;
+
 $(document).ready(function () {
     /*Check login*/
     if (typeof(Storage) !== "undefined") {
         if(sessionStorage.appKey !== undefined && sessionStorage.appKey !== '') {
-            var key = sessionStorage.appKey;
+            key = sessionStorage.appKey;
             $.ajax({
                 type: 'POST',
                 url: baseUrl + '?action=check-login',
@@ -16,12 +18,15 @@ $(document).ready(function () {
                 data: {
                     key: key
                 },
+                async:false,
                 success: function (result) {
                     result = $.parseJSON(result);
                     if(result.code != 200) {
                         window.location.replace("login.html");
                     }
-                    $('#fullname').text(result.data.fullName);
+
+                    userInfo = result.data.user;
+                    $('#fullname').text(userInfo.fullname);
                     $('#content').show();
                     $('#navbarResponsive').show();
                 },
@@ -154,4 +159,12 @@ function buildFroalaEditor(id) {
         zIndex: 2501,
         height: 300,
     });
+}
+
+function getUserInfo() {
+    $('#userNameTxt').val(userInfo.username);
+    $('#fullNameTxt').val(userInfo.fullname);
+    $('#emailTxt').val(userInfo.email);
+    $('#phoneTxt').val(userInfo.phone);
+    $('#addressTxt').val(userInfo.address);
 }
