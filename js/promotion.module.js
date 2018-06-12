@@ -518,7 +518,7 @@ function getListPromotionById(id, isView){
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(promotionData.promotion_note));
             }
-console.log('sefsdg',promotionData.promotion_note);
+console.log('sefsdg',promotionData);
             if(promotionData.time_start !== null && promotionData.time_start !== '') {
                 $('#timeStart').val(getFormattedDate(promotionData.time_start, 'date'));
             }
