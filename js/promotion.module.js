@@ -512,7 +512,7 @@ function getListPromotionById(id, isView){
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
-                $('#promotionDetail').froalaEditor('html.set', promotionData.promotion_detail);
+                $('#promotionDetail').froalaEditor('html.set', promotionData.promotion_detail+'<div></div>');
             }
 
             if(promotionData.promotion_note !== null) {
