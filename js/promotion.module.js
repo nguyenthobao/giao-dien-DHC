@@ -125,7 +125,7 @@ $(document).ready(function () {
     });
 
     /*Event Click Edit Promotion*/
-    $('body').on('click', '#editPromotion', function () {
+    $('body').on('click', '#editPromotion', function (){
         var stringImage = '';
         $.each($('.selectImg'),function (k, v) {
             stringImage = v.currentSrc;
@@ -518,7 +518,7 @@ function getListPromotionById(id, isView){
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(promotionData.promotion_note));
             }
-
+console.log('sefsdg',promotionData.promotion_note);
             if(promotionData.time_start !== null && promotionData.time_start !== '') {
                 $('#timeStart').val(getFormattedDate(promotionData.time_start, 'date'));
             }
@@ -526,10 +526,8 @@ function getListPromotionById(id, isView){
             if(promotionData.time_end !== null && promotionData.time_end !== '') {
                 $('#timeEnd').val(getFormattedDate(promotionData.time_end, 'date'));
             }
-
             if(promotionData.promotion_image !== '') {
                 var promotionImage = promotionData.promotion_image;
-
                 var previewImg = '<div class="col-3 img-preview">';
                 if(!isView) {
                     previewImg += '<button class="close remove-img" type="button">×</button>';
