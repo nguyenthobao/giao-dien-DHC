@@ -127,7 +127,8 @@ $(document).ready(function () {
 
     /*Event Click Edit Promotion*/
     $('body').on('click', '#editPromotion', function (){
-        alert($('#promotionDetail').text());
+        alert($('#promotionDetail').val());
+        console.log(tinymce.get('promotionDetail').getContent({format : 'raw', no_events : 1}));
         var stringImage = '';
         $.each($('.selectImg'),function (k, v) {
             stringImage = v.currentSrc;
@@ -507,7 +508,11 @@ function getListPromotionById(id, isView){
             promotion_id: id
         },
         success: function (result){
-            tinymce.init({ selector:'textarea#promotionDetail' });
+            tinymce.init({ selector:'textarea#promotionDetail',setup : function(ed) {
+                    ed.onKeyUp.add(function(ed, evt) {
+                        copyText();
+                    });
+                }});
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;
