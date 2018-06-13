@@ -78,7 +78,7 @@
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528885515134" expanded="true" signature="18487:18500" ph="..." />
+                <marker date="1528885625926" expanded="true" signature="18487:18500" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,8 +87,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -333,14 +333,7 @@
       <workItem from="1526975435405" duration="7294000" />
       <workItem from="1528790962108" duration="17501000" />
       <workItem from="1528865010328" duration="604000" />
-      <workItem from="1528872316480" duration="8169000" />
-    </task>
-    <task id="LOCAL-00027" summary="change ver">
-      <created>1526289816240</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1526289816240</updated>
+      <workItem from="1528872316480" duration="8280000" />
     </task>
     <task id="LOCAL-00028" summary="decode html">
       <created>1526360489902</created>
@@ -678,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528885393733</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="update text news">
+      <created>1528885521360</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1528885521360</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200209000" />
+    <option name="totallyTimeSpent" value="200320000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -988,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1056,7 +1056,7 @@
             <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528885515134" expanded="true" signature="18487:18500" ph="..." />
+            <marker date="1528885625926" expanded="true" signature="18487:18500" ph="..." />
           </folding>
         </state>
       </provider>
