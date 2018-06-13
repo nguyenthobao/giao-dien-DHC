@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/promotion.module.js" afterPath="$PROJECT_DIR$/js/promotion.module.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="338" column="37" lean-forward="false" selection-start-line="338" selection-start-column="37" selection-end-line="338" selection-end-column="37" />
+            <state relative-caret-position="228">
+              <caret line="336" column="45" lean-forward="true" selection-start-line="336" selection-start-column="45" selection-end-line="336" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="518" column="23" lean-forward="false" selection-start-line="518" selection-start-column="23" selection-end-line="518" selection-end-column="23" />
+            <state relative-caret-position="279">
+              <caret line="519" column="13" lean-forward="true" selection-start-line="519" selection-start-column="13" selection-end-line="519" selection-end-column="13" />
               <folding>
                 <element signature="e#1957#2439#0" expanded="false" />
                 <element signature="e#2536#3110#0" expanded="false" />
@@ -79,6 +79,7 @@
                 <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
+                <marker date="1528883886807" expanded="true" signature="18196:18209" ph="..." />
               </folding>
             </state>
           </provider>
@@ -173,10 +174,10 @@
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/js/home.module.js" />
         <option value="$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js" />
-        <option value="$PROJECT_DIR$/js/promotion.module.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.195/tinymce.min.js" />
         <option value="$PROJECT_DIR$/js/froala_editor/js/tinymce.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/promotion.module.js" />
       </list>
     </option>
   </component>
@@ -333,14 +334,7 @@
       <workItem from="1526975435405" duration="7294000" />
       <workItem from="1528790962108" duration="17501000" />
       <workItem from="1528865010328" duration="604000" />
-      <workItem from="1528872316480" duration="6440000" />
-    </task>
-    <task id="LOCAL-00019" summary="chang url api">
-      <created>1526285285104</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1526285285104</updated>
+      <workItem from="1528872316480" duration="6542000" />
     </task>
     <task id="LOCAL-00020" summary="chang url api">
       <created>1526285370713</created>
@@ -678,11 +672,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528883652265</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="update text news">
+      <created>1528883789876</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1528883789876</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198480000" />
+    <option name="totallyTimeSpent" value="198582000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1008,24 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="518" column="23" lean-forward="false" selection-start-line="518" selection-start-column="23" selection-end-line="518" selection-end-column="23" />
-          <folding>
-            <element signature="e#1957#2439#0" expanded="false" />
-            <element signature="e#2536#3110#0" expanded="false" />
-            <element signature="e#4546#5842#0" expanded="false" />
-            <element signature="e#8332#8606#0" expanded="false" />
-            <element signature="e#8700#11560#0" expanded="false" />
-            <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
-            <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
-            <element signature="n#!!block;n#changeDate#0" expanded="false" />
-            <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.195/tinymce.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1055,9 +1038,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="338" column="37" lean-forward="false" selection-start-line="338" selection-start-column="37" selection-end-line="338" selection-end-column="37" />
+        <state relative-caret-position="228">
+          <caret line="336" column="45" lean-forward="true" selection-start-line="336" selection-start-column="45" selection-end-line="336" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="519" column="13" lean-forward="true" selection-start-line="519" selection-start-column="13" selection-end-line="519" selection-end-column="13" />
+          <folding>
+            <element signature="e#1957#2439#0" expanded="false" />
+            <element signature="e#2536#3110#0" expanded="false" />
+            <element signature="e#4546#5842#0" expanded="false" />
+            <element signature="e#8332#8606#0" expanded="false" />
+            <element signature="e#8700#11560#0" expanded="false" />
+            <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
+            <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
+            <element signature="n#!!block;n#changeDate#0" expanded="false" />
+            <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
+            <marker date="1528883886807" expanded="true" signature="18196:18209" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

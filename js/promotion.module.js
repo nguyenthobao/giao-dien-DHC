@@ -515,13 +515,12 @@ function getListPromotionById(id, isView){
 
             if(promotionData.promotion_detail !== null) {
                 setTimeout(function(){
-                tinymce.activeEditor.setContent('<h1>ewgiblcnoals</h1>');
+                tinymce.activeEditor.setContent(promotionData.promotion_detail');
                 },100);
             }
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(     promotionData.promotion_note));
             }
-console.log('sefsdg',promotionData);
             if(promotionData.time_start !== null && promotionData.time_start !== '') {
                 $('#timeStart').val(getFormattedDate(promotionData.time_start, 'date'));
             }
