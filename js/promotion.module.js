@@ -515,7 +515,6 @@ function getListPromotionById(id, isView){
 
             if(promotionData.promotion_detail !== null) {
                 tinymce.activeEditor.setContent('<h1>ewgiblcnoals</h1>');
-                $('#promotionDetail').text(promotionData.promotion_detail);
             }
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(     promotionData.promotion_note));
