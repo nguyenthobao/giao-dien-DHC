@@ -1,24 +1,6 @@
 var totalPromotionPage = 0;
 var classPromotionPage = 'promotion-page';
-tinymce.init({
-// General options
-    mode : "specific_textareas",
-    theme : "advanced",
-    width: "100%",
-    plugins : "pagebreak,paste,fullscreen,visualchars",
 
-// Theme options
-    theme_advanced_buttons1 : "code,|,bold,italic,underline,|,sub,sup,|,charmap,|,fullscreen,|,bullist,numlist,|,pasteword",
-    theme_advanced_buttons2 :"",
-    theme_advanced_buttons3 :"",
-    theme_advanced_buttons4 :"",
-    theme_advanced_toolbar_location : "top",
-    theme_advanced_toolbar_align : "left",
-    theme_advanced_statusbar_location : "bottom",
-    valid_elements : "i,sub,sup",
-    invalid_elements : "p, script",
-    editor_deselector : "mceOthers"
-});
 $(document).ready(function () {
     /*Get list news*/
     $('#tab3').change(function () {
@@ -524,6 +506,26 @@ function getListPromotionById(id, isView){
             promotion_id: id
         },
         success: function (result){
+            tinymce.init({
+// General options
+                selector: "textarea",
+                mode : "specific_textareas",
+                theme : "advanced",
+                width: "100%",
+                plugins : "pagebreak,paste,fullscreen,visualchars",
+
+// Theme options
+                theme_advanced_buttons1 : "code,|,bold,italic,underline,|,sub,sup,|,charmap,|,fullscreen,|,bullist,numlist,|,pasteword",
+                theme_advanced_buttons2 :"",
+                theme_advanced_buttons3 :"",
+                theme_advanced_buttons4 :"",
+                theme_advanced_toolbar_location : "top",
+                theme_advanced_toolbar_align : "left",
+                theme_advanced_statusbar_location : "bottom",
+                valid_elements : "i,sub,sup",
+                invalid_elements : "p, script",
+                editor_deselector : "mceOthers"
+            });
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;
@@ -531,10 +533,10 @@ function getListPromotionById(id, isView){
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
-                tinymce.get('promotionDetail').setContent(promotionData.promotion_detail);
+                tinymce.activeEditor.setContent(promotionData.promotion_detail);
             }
             if(promotionData.promotion_note !== null) {
-                $('#promotionNote').val(htmlDecode(promotionData.promotion_note));
+                $('#promotionNote').val(htmlDecode(     promotionData.promotion_note));
             }
 console.log('sefsdg',promotionData);
             if(promotionData.time_start !== null && promotionData.time_start !== '') {
