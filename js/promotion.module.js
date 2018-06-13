@@ -127,6 +127,7 @@ $(document).ready(function () {
 
     /*Event Click Edit Promotion*/
     $('body').on('click', '#editPromotion', function (){
+        alert($('#promotionDetail').val());
         var stringImage = '';
         $.each($('.selectImg'),function (k, v) {
             stringImage = v.currentSrc;
@@ -134,56 +135,56 @@ $(document).ready(function () {
 
         var key = sessionStorage.appKey;
 
-        $.ajax({
-            type: 'POST',
-            url: baseUrl + '?action=edit-promotion',
-            dataType: 'text',
-            data: {
-                promotion_id: $('#promotionId').val(),
-                promotion_name: $('#promotionName').val(),
-                promotion_type: $('#promotionType').val(),
-                time_start: dateToTimeStamp($('#timeStart').val()),
-                time_end: dateToTimeStamp($('#timeEnd').val()),
-                promotion_detail: $('#promotionDetail').froalaEditor('html.get'),
-                promotion_note: $('#promotionNote').val(),
-                promotion_image: stringImage,
-                key: key
-            },
-            success: function (result) {
-                result = $.parseJSON(result);
-                switch (result.code) {
-                    case 200:
-                        $('#modalForm').modal('hide');
-                        getListPromotion(0);
-                        html = buildPaging(0, totalPromotionPage, classPromotionPage);
-                        $('#page-promotion').html(html);
-                        break;
-                    case 401:
-                        $.alert({
-                            title: 'Cảnh báo!',
-                            type: 'red',
-                            typeAnimated: true,
-                            content: '<p>Hết hạn đăng nhập</p><b>Vui lòng đăng nhập lại</b>',
-                            onClose: function () {
-                                sessionStorage.clear();
-                                window.location.replace("login.html");
-                            }
-                        });
-                        break;
-                    default:
-                        $.alert({
-                            title: 'Cảnh báo!',
-                            type: 'red',
-                            typeAnimated: true,
-                            content: result.message
-                        });
-                        break;
-                }
-            },
-            error: function () {
-                alert('Error');
-            }
-        });
+        // $.ajax({
+        //     type: 'POST',
+        //     url: baseUrl + '?action=edit-promotion',
+        //     dataType: 'text',
+        //     data: {
+        //         promotion_id: $('#promotionId').val(),
+        //         promotion_name: $('#promotionName').val(),
+        //         promotion_type: $('#promotionType').val(),
+        //         time_start: dateToTimeStamp($('#timeStart').val()),
+        //         time_end: dateToTimeStamp($('#timeEnd').val()),
+        //         promotion_detail: $('#promotionDetail').val(),
+        //         promotion_note: $('#promotionNote').val(),
+        //         promotion_image: stringImage,
+        //         key: key
+        //     },
+        //     success: function (result) {
+        //         result = $.parseJSON(result);
+        //         switch (result.code) {
+        //             case 200:
+        //                 $('#modalForm').modal('hide');
+        //                 getListPromotion(0);
+        //                 html = buildPaging(0, totalPromotionPage, classPromotionPage);
+        //                 $('#page-promotion').html(html);
+        //                 break;
+        //             case 401:
+        //                 $.alert({
+        //                     title: 'Cảnh báo!',
+        //                     type: 'red',
+        //                     typeAnimated: true,
+        //                     content: '<p>Hết hạn đăng nhập</p><b>Vui lòng đăng nhập lại</b>',
+        //                     onClose: function () {
+        //                         sessionStorage.clear();
+        //                         window.location.replace("login.html");
+        //                     }
+        //                 });
+        //                 break;
+        //             default:
+        //                 $.alert({
+        //                     title: 'Cảnh báo!',
+        //                     type: 'red',
+        //                     typeAnimated: true,
+        //                     content: result.message
+        //                 });
+        //                 break;
+        //         }
+        //     },
+        //     error: function () {
+        //         alert('Error');
+        //     }
+        // });
     });
 
     /*Event Click Add Promotion*/
