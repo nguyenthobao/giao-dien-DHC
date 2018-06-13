@@ -533,7 +533,7 @@ function getListPromotionById(id, isView){
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
-                tinymce.activeEditor.setContent(promotionData.promotion_detail);
+                tinymce.activeEditor.setContent('wefyvobPNOEPM');
             }
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(     promotionData.promotion_note));
