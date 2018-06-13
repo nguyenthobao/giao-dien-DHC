@@ -27,7 +27,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="-5471">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -49,20 +49,20 @@
       <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="514" column="74" lean-forward="true" selection-start-line="514" selection-start-column="74" selection-end-line="514" selection-end-column="74" />
+            <state relative-caret-position="170">
+              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
               <folding>
-                <element signature="e#159#1877#0" expanded="false" />
-                <element signature="e#1953#2435#0" expanded="false" />
-                <element signature="e#2532#3106#0" expanded="false" />
-                <element signature="e#3196#3574#0" expanded="false" />
-                <element signature="e#8347#8621#0" expanded="false" />
-                <element signature="e#8715#11575#0" expanded="false" />
+                <element signature="e#815#2533#0" expanded="false" />
+                <element signature="e#2609#3091#0" expanded="false" />
+                <element signature="e#3188#3762#0" expanded="false" />
+                <element signature="e#3852#4230#0" expanded="false" />
+                <element signature="e#9003#9277#0" expanded="false" />
+                <element signature="e#9371#12231#0" expanded="false" />
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528860952684" expanded="true" signature="18212:18225" ph="..." />
+                <marker date="1528861841806" expanded="true" signature="18868:18881" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,9 +127,9 @@
       <find>VOID_ELEMENTS</find>
       <find>copy</find>
       <find>froalaEditor</find>
-      <find>pkgd</find>
       <find>promotion</find>
       <find>promotion_detail</find>
+      <find>pkgd</find>
     </findStrings>
     <replaceStrings>
       <replace>formBodyHtml</replace>
@@ -297,14 +297,7 @@
       <workItem from="1526889190095" duration="516000" />
       <workItem from="1526974177178" duration="357000" />
       <workItem from="1526975435405" duration="7294000" />
-      <workItem from="1528790962108" duration="14476000" />
-    </task>
-    <task id="LOCAL-00001" summary="add api to test">
-      <created>1525796925740</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1525796925740</updated>
+      <workItem from="1528790962108" duration="15369000" />
     </task>
     <task id="LOCAL-00002" summary="xong menu">
       <created>1525845989316</created>
@@ -642,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528860475453</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="update text news">
+      <created>1528860959344</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1528860959344</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188411000" />
+    <option name="totallyTimeSpent" value="189304000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -988,14 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1004,22 +996,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5471">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="514" column="74" lean-forward="true" selection-start-line="514" selection-start-column="74" selection-end-line="514" selection-end-column="74" />
+        <state relative-caret-position="170">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
-            <element signature="e#159#1877#0" expanded="false" />
-            <element signature="e#1953#2435#0" expanded="false" />
-            <element signature="e#2532#3106#0" expanded="false" />
-            <element signature="e#3196#3574#0" expanded="false" />
-            <element signature="e#8347#8621#0" expanded="false" />
-            <element signature="e#8715#11575#0" expanded="false" />
+            <element signature="e#815#2533#0" expanded="false" />
+            <element signature="e#2609#3091#0" expanded="false" />
+            <element signature="e#3188#3762#0" expanded="false" />
+            <element signature="e#3852#4230#0" expanded="false" />
+            <element signature="e#9003#9277#0" expanded="false" />
+            <element signature="e#9371#12231#0" expanded="false" />
             <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
             <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528860952684" expanded="true" signature="18212:18225" ph="..." />
+            <marker date="1528861841806" expanded="true" signature="18868:18881" ph="..." />
           </folding>
         </state>
       </provider>
