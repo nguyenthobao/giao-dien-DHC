@@ -49,8 +49,8 @@
       <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="517" column="49" lean-forward="true" selection-start-line="517" selection-start-column="49" selection-end-line="517" selection-end-column="49" />
+            <state relative-caret-position="194">
+              <caret line="514" column="74" lean-forward="true" selection-start-line="514" selection-start-column="74" selection-end-line="514" selection-end-column="74" />
               <folding>
                 <element signature="e#159#1877#0" expanded="false" />
                 <element signature="e#1953#2435#0" expanded="false" />
@@ -62,7 +62,7 @@
                 <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528860456104" expanded="true" signature="18212:18225" ph="..." />
+                <marker date="1528860952684" expanded="true" signature="18212:18225" ph="..." />
               </folding>
             </state>
           </provider>
@@ -100,7 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>var</find>
       <find>dele</find>
       <find>key</find>
       <find>CKEDITOR</find>
@@ -130,6 +129,7 @@
       <find>froalaEditor</find>
       <find>pkgd</find>
       <find>promotion</find>
+      <find>promotion_detail</find>
     </findStrings>
     <replaceStrings>
       <replace>formBodyHtml</replace>
@@ -297,7 +297,7 @@
       <workItem from="1526889190095" duration="516000" />
       <workItem from="1526974177178" duration="357000" />
       <workItem from="1526975435405" duration="7294000" />
-      <workItem from="1528790962108" duration="13987000" />
+      <workItem from="1528790962108" duration="14476000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -635,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528860189315</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="update text news">
+      <created>1528860475453</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1528860475453</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187922000" />
+    <option name="totallyTimeSpent" value="188411000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -999,8 +1006,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="517" column="49" lean-forward="true" selection-start-line="517" selection-start-column="49" selection-end-line="517" selection-end-column="49" />
+        <state relative-caret-position="194">
+          <caret line="514" column="74" lean-forward="true" selection-start-line="514" selection-start-column="74" selection-end-line="514" selection-end-column="74" />
           <folding>
             <element signature="e#159#1877#0" expanded="false" />
             <element signature="e#1953#2435#0" expanded="false" />
@@ -1012,7 +1019,7 @@
             <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528860456104" expanded="true" signature="18212:18225" ph="..." />
+            <marker date="1528860952684" expanded="true" signature="18212:18225" ph="..." />
           </folding>
         </state>
       </provider>

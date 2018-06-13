@@ -504,7 +504,7 @@ function getListPromotionById(id, isView){
         data: {
             promotion_id: id
         },
-        success: function (result) {
+        success: function (result){
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;
@@ -512,7 +512,7 @@ function getListPromotionById(id, isView){
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
-                tinymce.get('promotion_detail').setContent(promotionData.promotion_detail);
+               $('#promotionDetail').html(promotionData.promotion_detail);
             }
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(promotionData.promotion_note));
