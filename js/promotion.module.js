@@ -1,6 +1,6 @@
 var totalPromotionPage = 0;
 var classPromotionPage = 'promotion-page';
-tinyMCE.init({
+tinymce.init({
 // General options
     mode : "specific_textareas",
     theme : "advanced",
@@ -444,7 +444,7 @@ function buildFormPromotion() {
             formBodyHtml += '<div class="col-12">';
                 formBodyHtml += '<div class="form-group">';
                 formBodyHtml += '<label for="promotionDetail">Mô tả</label>';
-                formBodyHtml += '<textarea name="promotion_detail" class="form-control promotionForm" id="promotionDetail" rows="3" placeholder="Mô tả"></textarea>';
+                formBodyHtml += '<textarea name="promotionDetail" class="form-control promotionForm" id="promotionDetail" rows="3" placeholder="Mô tả"></textarea>';
                 formBodyHtml += '</div>';
             formBodyHtml += '</div>';
             formBodyHtml += '<div class="col-12">';
