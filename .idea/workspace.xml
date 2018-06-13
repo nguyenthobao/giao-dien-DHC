@@ -49,8 +49,8 @@
       <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="516" column="65" lean-forward="false" selection-start-line="516" selection-start-column="65" selection-end-line="516" selection-end-column="65" />
+            <state relative-caret-position="340">
+              <caret line="517" column="73" lean-forward="false" selection-start-line="517" selection-start-column="73" selection-end-line="517" selection-end-column="73" />
               <folding>
                 <element signature="e#160#1878#0" expanded="false" />
                 <element signature="e#1954#2436#0" expanded="false" />
@@ -62,7 +62,7 @@
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528879627267" expanded="true" signature="18212:18225" ph="..." />
+                <marker date="1528880958930" expanded="true" signature="18212:18225" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -299,14 +299,7 @@
       <workItem from="1526975435405" duration="7294000" />
       <workItem from="1528790962108" duration="17501000" />
       <workItem from="1528865010328" duration="604000" />
-      <workItem from="1528872316480" duration="3166000" />
-    </task>
-    <task id="LOCAL-00012" summary="add core">
-      <created>1526122978851</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1526122978851</updated>
+      <workItem from="1528872316480" duration="4034000" />
     </task>
     <task id="LOCAL-00013" summary="done promotion">
       <created>1526140893629</created>
@@ -644,11 +637,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528879428408</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="update text news">
+      <created>1528879632565</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1528879632565</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195206000" />
+    <option name="totallyTimeSpent" value="196074000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -974,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1000,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="516" column="65" lean-forward="false" selection-start-line="516" selection-start-column="65" selection-end-line="516" selection-end-column="65" />
+        <state relative-caret-position="340">
+          <caret line="517" column="73" lean-forward="false" selection-start-line="517" selection-start-column="73" selection-end-line="517" selection-end-column="73" />
           <folding>
             <element signature="e#160#1878#0" expanded="false" />
             <element signature="e#1954#2436#0" expanded="false" />
@@ -1013,7 +1013,7 @@
             <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528879627267" expanded="true" signature="18212:18225" ph="..." />
+            <marker date="1528880958930" expanded="true" signature="18212:18225" ph="..." />
           </folding>
         </state>
       </provider>
