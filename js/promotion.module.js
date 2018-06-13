@@ -127,7 +127,7 @@ $(document).ready(function () {
 
     /*Event Click Edit Promotion*/
     $('body').on('click', '#editPromotion', function (){
-        alert($('#promotionDetail').val());
+        alert($('#promotionDetail').text());
         var stringImage = '';
         $.each($('.selectImg'),function (k, v) {
             stringImage = v.currentSrc;
