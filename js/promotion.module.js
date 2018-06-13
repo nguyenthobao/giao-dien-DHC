@@ -506,6 +506,7 @@ function getListPromotionById(id, isView){
             promotion_id: id
         },
         success: function (result){
+            tinymce.init({ selector:'textarea#promotionDetail' });
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;

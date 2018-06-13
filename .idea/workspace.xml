@@ -4,6 +4,7 @@
     <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/promotion.module.js" afterPath="$PROJECT_DIR$/js/promotion.module.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="363" column="71" lean-forward="false" selection-start-line="363" selection-start-column="71" selection-end-line="363" selection-end-column="71" />
+            <state relative-caret-position="427">
+              <caret line="362" column="0" lean-forward="false" selection-start-line="362" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="450" column="37" lean-forward="true" selection-start-line="450" selection-start-column="37" selection-end-line="450" selection-end-column="37" />
+            <state relative-caret-position="279">
+              <caret line="515" column="38" lean-forward="false" selection-start-line="515" selection-start-column="38" selection-end-line="515" selection-end-column="38" />
               <folding>
                 <element signature="e#160#1878#0" expanded="false" />
                 <element signature="e#1954#2436#0" expanded="false" />
@@ -62,7 +63,7 @@
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528879177223" expanded="true" signature="18212:18225" ph="..." />
+                <marker date="1528879384700" expanded="true" signature="18212:18225" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,8 +158,8 @@
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/js/home.module.js" />
         <option value="$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js" />
-        <option value="$PROJECT_DIR$/js/promotion.module.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/promotion.module.js" />
       </list>
     </option>
   </component>
@@ -299,14 +300,7 @@
       <workItem from="1526975435405" duration="7294000" />
       <workItem from="1528790962108" duration="17501000" />
       <workItem from="1528865010328" duration="604000" />
-      <workItem from="1528872316480" duration="2838000" />
-    </task>
-    <task id="LOCAL-00010" summary="edit point">
-      <created>1526100779448</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1526100779448</updated>
+      <workItem from="1528872316480" duration="2962000" />
     </task>
     <task id="LOCAL-00011" summary="done news">
       <created>1526107640450</created>
@@ -644,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528879201082</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="update text news">
+      <created>1528879302638</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1528879302638</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194878000" />
+    <option name="totallyTimeSpent" value="195002000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -990,10 +991,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="362" column="0" lean-forward="false" selection-start-line="362" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="450" column="37" lean-forward="true" selection-start-line="450" selection-start-column="37" selection-end-line="450" selection-end-column="37" />
+        <state relative-caret-position="279">
+          <caret line="515" column="38" lean-forward="false" selection-start-line="515" selection-start-column="38" selection-end-line="515" selection-end-column="38" />
           <folding>
             <element signature="e#160#1878#0" expanded="false" />
             <element signature="e#1954#2436#0" expanded="false" />
@@ -1005,16 +1014,8 @@
             <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528879177223" expanded="true" signature="18212:18225" ph="..." />
+            <marker date="1528879384700" expanded="true" signature="18212:18225" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="363" column="71" lean-forward="false" selection-start-line="363" selection-start-column="71" selection-end-line="363" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
