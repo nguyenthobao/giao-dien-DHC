@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/promotion.module.js" afterPath="$PROJECT_DIR$/js/promotion.module.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,18 +17,24 @@
       <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="137" column="19" lean-forward="true" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+              <folding>
+                <element signature="e#300#1500#0" expanded="false" />
+                <element signature="n#!!block;n#getFormattedDate#0" expanded="false" />
+                <element signature="n#!!block;n#dateToTimeStamp#0" expanded="false" />
+                <element signature="n#!!block;n#htmlDecode#0" expanded="false" />
+                <element signature="n#!!block;n#buildPaging#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5746">
-              <caret line="338" column="71" lean-forward="true" selection-start-line="338" selection-start-column="71" selection-end-line="338" selection-end-column="71" />
+            <state relative-caret-position="-350">
+              <caret line="317" column="49" lean-forward="false" selection-start-line="317" selection-start-column="40" selection-end-line="317" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -47,23 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="516" column="73" lean-forward="false" selection-start-line="516" selection-start-column="73" selection-end-line="516" selection-end-column="73" />
+            <state relative-caret-position="497">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <element signature="e#160#1878#0" expanded="false" />
-                <element signature="e#1954#2436#0" expanded="false" />
-                <element signature="e#2533#3107#0" expanded="false" />
-                <element signature="e#3197#3575#0" expanded="false" />
-                <element signature="e#4562#5858#0" expanded="false" />
-                <element signature="e#8348#8622#0" expanded="false" />
-                <element signature="e#8716#11576#0" expanded="false" />
+                <element signature="e#1957#2439#0" expanded="false" />
+                <element signature="e#2536#3110#0" expanded="false" />
+                <element signature="e#4546#5842#0" expanded="false" />
+                <element signature="e#8332#8606#0" expanded="false" />
+                <element signature="e#8700#11560#0" expanded="false" />
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528881160448" expanded="true" signature="18212:18225" ph="..." />
+                <marker date="1528881932920" expanded="true" signature="18196:18209" ph="..." />
               </folding>
             </state>
           </provider>
@@ -72,8 +75,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="17">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -101,12 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dele</find>
-      <find>key</find>
-      <find>CKEDITOR</find>
-      <find>point_image</find>
-      <find>add-poi</find>
-      <find>tab</find>
       <find>tiny</find>
       <find>ck</find>
       <find>pointDetail</find>
@@ -130,7 +127,13 @@
       <find>froalaEditor</find>
       <find>pkgd</find>
       <find>promotion_detail</find>
+      <find>fl</find>
+      <find>edit-promotion</find>
+      <find>textarea</find>
+      <find>body</find>
       <find>promotion</find>
+      <find>n buildFormPromotion</find>
+      <find>form-body</find>
     </findStrings>
     <replaceStrings>
       <replace>formBodyHtml</replace>
@@ -158,8 +161,8 @@
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/js/home.module.js" />
         <option value="$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js" />
-        <option value="$PROJECT_DIR$/js/promotion.module.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/promotion.module.js" />
       </list>
     </option>
   </component>
@@ -300,14 +303,7 @@
       <workItem from="1526975435405" duration="7294000" />
       <workItem from="1528790962108" duration="17501000" />
       <workItem from="1528865010328" duration="604000" />
-      <workItem from="1528872316480" duration="4234000" />
-    </task>
-    <task id="LOCAL-00014" summary="add httaccess">
-      <created>1526141144550</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1526141144550</updated>
+      <workItem from="1528872316480" duration="5004000" />
     </task>
     <task id="LOCAL-00015" summary="change directory js">
       <created>1526141794302</created>
@@ -645,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528880966364</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update text news">
+      <created>1528881165323</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1528881165323</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196274000" />
+    <option name="totallyTimeSpent" value="197044000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -669,6 +672,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -681,7 +685,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -957,26 +960,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restful/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -991,31 +978,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="516" column="73" lean-forward="false" selection-start-line="516" selection-start-column="73" selection-end-line="516" selection-end-column="73" />
-          <folding>
-            <element signature="e#160#1878#0" expanded="false" />
-            <element signature="e#1954#2436#0" expanded="false" />
-            <element signature="e#2533#3107#0" expanded="false" />
-            <element signature="e#3197#3575#0" expanded="false" />
-            <element signature="e#4562#5858#0" expanded="false" />
-            <element signature="e#8348#8622#0" expanded="false" />
-            <element signature="e#8716#11576#0" expanded="false" />
-            <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
-            <element signature="n#!!block;n#changeDate#0" expanded="false" />
-            <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528881160448" expanded="true" signature="18212:18225" ph="..." />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5746">
-          <caret line="338" column="71" lean-forward="true" selection-start-line="338" selection-start-column="71" selection-end-line="338" selection-end-column="71" />
+        <state relative-caret-position="-350">
+          <caret line="317" column="49" lean-forward="false" selection-start-line="317" selection-start-column="40" selection-end-line="317" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="137" column="19" lean-forward="true" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+          <folding>
+            <element signature="e#300#1500#0" expanded="false" />
+            <element signature="n#!!block;n#getFormattedDate#0" expanded="false" />
+            <element signature="n#!!block;n#dateToTimeStamp#0" expanded="false" />
+            <element signature="n#!!block;n#htmlDecode#0" expanded="false" />
+            <element signature="n#!!block;n#buildPaging#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#1957#2439#0" expanded="false" />
+            <element signature="e#2536#3110#0" expanded="false" />
+            <element signature="e#4546#5842#0" expanded="false" />
+            <element signature="e#8332#8606#0" expanded="false" />
+            <element signature="e#8700#11560#0" expanded="false" />
+            <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
+            <element signature="n#!!block;n#changeDate#0" expanded="false" />
+            <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
+            <marker date="1528881932920" expanded="true" signature="18196:18209" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

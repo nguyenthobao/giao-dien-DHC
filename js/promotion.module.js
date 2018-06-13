@@ -12,7 +12,7 @@ $(document).ready(function () {
         buildFormPromotion();
 
         /*Froala*/
-        buildFroalaEditor('promotionDetail');
+        // buildFroalaEditor('promotionDetail');
 
         /*Datepicker*/
         var timeStart = $('#timeStart');
@@ -144,7 +144,7 @@ $(document).ready(function () {
                 promotion_type: $('#promotionType').val(),
                 time_start: dateToTimeStamp($('#timeStart').val()),
                 time_end: dateToTimeStamp($('#timeEnd').val()),
-                promotion_detail: $('#promotionDetail').froalaEditor('html.get'),
+                promotion_detail: $('#promotionDetail').val(),
                 promotion_note: $('#promotionNote').val(),
                 promotion_image: stringImage,
                 key: key
