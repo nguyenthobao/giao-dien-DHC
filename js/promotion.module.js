@@ -425,7 +425,7 @@ function buildFormPromotion() {
             formBodyHtml += '<div class="col-12">';
                 formBodyHtml += '<div class="form-group">';
                 formBodyHtml += '<label for="promotionDetail">Mô tả</label>';
-                formBodyHtml += '<textarea class="form-control promotionForm" id="promotionDetail" rows="3" placeholder="Mô tả"></textarea>';
+                formBodyHtml += '<textarea name="promotion_detail" class="form-control promotionForm" id="promotionDetail" rows="3" placeholder="Mô tả"></textarea>';
                 formBodyHtml += '</div>';
             formBodyHtml += '</div>';
             formBodyHtml += '<div class="col-12">';
@@ -512,7 +512,7 @@ function getListPromotionById(id, isView){
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
-                $('#promotionDetail').froalaEditor('html.set', promotionData.promotion_detail+'<div></div>');
+                tinymce.get('promotion_detail').getBody().innerHTML =promotionData.promotion_detail;
             }
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(promotionData.promotion_note));

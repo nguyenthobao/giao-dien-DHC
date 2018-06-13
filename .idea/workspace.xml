@@ -16,43 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="froala_editor.pkgd.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="410" column="46" lean-forward="true" selection-start-line="410" selection-start-column="46" selection-end-line="410" selection-end-column="46" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="168" column="15" lean-forward="false" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="519" column="36" lean-forward="true" selection-start-line="519" selection-start-column="36" selection-end-line="519" selection-end-column="36" />
+            <state relative-caret-position="194">
+              <caret line="427" column="65" lean-forward="false" selection-start-line="427" selection-start-column="65" selection-end-line="427" selection-end-column="65" />
               <folding>
                 <element signature="e#159#1877#0" expanded="false" />
                 <element signature="e#1953#2435#0" expanded="false" />
@@ -83,9 +61,10 @@
                 <element signature="e#8347#8621#0" expanded="false" />
                 <element signature="e#8715#11575#0" expanded="false" />
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
-                <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
+                <element signature="n#!!block;n#getListPromotionById#0" expanded="false" />
+                <marker date="1528859982284" expanded="true" signature="18212:18225" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,8 +73,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -123,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bui</find>
       <find>var</find>
       <find>dele</find>
       <find>key</find>
@@ -149,10 +127,11 @@
       <find>n htmlDecode</find>
       <find>htmlDecode</find>
       <find>promotion.module</find>
-      <find>promotion</find>
+      <find>VOID_ELEMENTS</find>
+      <find>copy</find>
       <find>froalaEditor</find>
       <find>pkgd</find>
-      <find>VOID_ELEMENTS</find>
+      <find>promotion</find>
     </findStrings>
     <replaceStrings>
       <replace>formBodyHtml</replace>
@@ -179,9 +158,9 @@
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/js/home.module.js" />
+        <option value="$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/promotion.module.js" />
-        <option value="$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js" />
       </list>
     </option>
   </component>
@@ -320,7 +299,7 @@
       <workItem from="1526889190095" duration="516000" />
       <workItem from="1526974177178" duration="357000" />
       <workItem from="1526975435405" duration="7294000" />
-      <workItem from="1528790962108" duration="12621000" />
+      <workItem from="1528790962108" duration="13508000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -637,11 +616,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528857217537</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update text news">
+      <created>1528859111106</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1528859111106</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186556000" />
+    <option name="totallyTimeSpent" value="187443000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -931,14 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restful/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -949,8 +927,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -961,25 +939,6 @@
           <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="e#1217#3091#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="519" column="36" lean-forward="true" selection-start-line="519" selection-start-column="36" selection-end-line="519" selection-end-column="36" />
-          <folding>
-            <element signature="e#159#1877#0" expanded="false" />
-            <element signature="e#1953#2435#0" expanded="false" />
-            <element signature="e#2532#3106#0" expanded="false" />
-            <element signature="e#3196#3574#0" expanded="false" />
-            <element signature="e#8347#8621#0" expanded="false" />
-            <element signature="e#8715#11575#0" expanded="false" />
-            <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
-            <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
-            <element signature="n#!!block;n#changeDate#0" expanded="false" />
-            <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1000,20 +959,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="19227" lean-forward="true" selection-start-line="6" selection-start-column="19227" selection-end-line="6" selection-end-column="19227" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/froala_editor/js/froala_editor.pkgd.min.js">
+    <entry file="file://$PROJECT_DIR$/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="410" column="46" lean-forward="true" selection-start-line="410" selection-start-column="46" selection-end-line="410" selection-end-column="46" />
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="427" column="65" lean-forward="false" selection-start-line="427" selection-start-column="65" selection-end-line="427" selection-end-column="65" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#159#1877#0" expanded="false" />
+            <element signature="e#1953#2435#0" expanded="false" />
+            <element signature="e#2532#3106#0" expanded="false" />
+            <element signature="e#3196#3574#0" expanded="false" />
+            <element signature="e#8347#8621#0" expanded="false" />
+            <element signature="e#8715#11575#0" expanded="false" />
+            <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
+            <element signature="n#!!block;n#changeDate#0" expanded="false" />
+            <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
+            <element signature="n#!!block;n#getListPromotionById#0" expanded="false" />
+            <marker date="1528859982284" expanded="true" signature="18212:18225" ph="..." />
           </folding>
         </state>
       </provider>
