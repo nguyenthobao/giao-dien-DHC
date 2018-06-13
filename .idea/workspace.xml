@@ -4,6 +4,7 @@
     <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/promotion.module.js" afterPath="$PROJECT_DIR$/js/promotion.module.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="337" column="71" lean-forward="false" selection-start-line="337" selection-start-column="71" selection-end-line="337" selection-end-column="71" />
+            <state relative-caret-position="271">
+              <caret line="338" column="55" lean-forward="false" selection-start-line="338" selection-start-column="55" selection-end-line="338" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -56,24 +57,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+            <state relative-caret-position="194">
+              <caret line="515" column="13" lean-forward="true" selection-start-line="515" selection-start-column="13" selection-end-line="515" selection-end-column="13" />
               <folding>
                 <element signature="e#159#1877#0" expanded="false" />
                 <element signature="e#1953#2435#0" expanded="false" />
                 <element signature="e#2532#3106#0" expanded="false" />
                 <element signature="e#3196#3574#0" expanded="false" />
-                <element signature="e#3668#5955#0" expanded="false" />
-                <element signature="e#8347#8621#0" expanded="false" />
-                <element signature="e#8715#11575#0" expanded="false" />
+                <element signature="e#3668#5936#0" expanded="false" />
+                <element signature="e#8309#8583#0" expanded="false" />
+                <element signature="e#8677#11537#0" expanded="false" />
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
+                <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <element signature="n#!!block;n#getListPromotionById#0" expanded="false" />
-                <marker date="1528801545645" expanded="true" signature="18188:18201" ph="..." />
+                <marker date="1528857075598" expanded="true" signature="18150:18163" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,8 +83,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="357">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -111,7 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>edit</find>
       <find>editNews</find>
       <find>console</find>
       <find>bui</find>
@@ -141,6 +141,7 @@
       <find>htmlDecode</find>
       <find>promotion.module</find>
       <find>promotion</find>
+      <find>froalaEditor</find>
     </findStrings>
     <replaceStrings>
       <replace>formBodyHtml</replace>
@@ -167,8 +168,8 @@
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/js/core.js" />
         <option value="$PROJECT_DIR$/js/home.module.js" />
-        <option value="$PROJECT_DIR$/js/promotion.module.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/promotion.module.js" />
       </list>
     </option>
   </component>
@@ -289,7 +290,7 @@
       <workItem from="1526889190095" duration="516000" />
       <workItem from="1526974177178" duration="357000" />
       <workItem from="1526975435405" duration="7294000" />
-      <workItem from="1528790962108" duration="9666000" />
+      <workItem from="1528790962108" duration="10640000" />
     </task>
     <task id="LOCAL-00001" summary="add api to test">
       <created>1525796925740</created>
@@ -585,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528801586883</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="update text news">
+      <created>1528856066672</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1528856066672</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183601000" />
+    <option name="totallyTimeSpent" value="184575000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -923,38 +931,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="338" column="55" lean-forward="false" selection-start-line="338" selection-start-column="55" selection-end-line="338" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+        <state relative-caret-position="194">
+          <caret line="515" column="13" lean-forward="true" selection-start-line="515" selection-start-column="13" selection-end-line="515" selection-end-column="13" />
           <folding>
             <element signature="e#159#1877#0" expanded="false" />
             <element signature="e#1953#2435#0" expanded="false" />
             <element signature="e#2532#3106#0" expanded="false" />
             <element signature="e#3196#3574#0" expanded="false" />
-            <element signature="e#3668#5955#0" expanded="false" />
-            <element signature="e#8347#8621#0" expanded="false" />
-            <element signature="e#8715#11575#0" expanded="false" />
+            <element signature="e#3668#5936#0" expanded="false" />
+            <element signature="e#8309#8583#0" expanded="false" />
+            <element signature="e#8677#11537#0" expanded="false" />
             <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
+            <element signature="n#!!block;n#buildFormPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <element signature="n#!!block;n#getListPromotionById#0" expanded="false" />
-            <marker date="1528801545645" expanded="true" signature="18188:18201" ph="..." />
+            <marker date="1528857075598" expanded="true" signature="18150:18163" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="337" column="71" lean-forward="false" selection-start-line="337" selection-start-column="71" selection-end-line="337" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>

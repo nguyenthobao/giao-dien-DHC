@@ -143,7 +143,7 @@ $(document).ready(function () {
                 promotion_type: $('#promotionType').val(),
                 time_start: dateToTimeStamp($('#timeStart').val()),
                 time_end: dateToTimeStamp($('#timeEnd').val()),
-                promotion_detail: $('#promotionDetail').froalaEditor('html.get'),
+                promotion_detail: $('#promotionDetail').val(),
                 promotion_note: $('#promotionNote').val(),
                 promotion_image: stringImage,
                 key: key
@@ -203,7 +203,7 @@ $(document).ready(function () {
                 promotion_type: $('#promotionType').val(),
                 time_start: dateToTimeStamp($('#timeStart').val()),
                 time_end: dateToTimeStamp($('#timeEnd').val()),
-                promotion_detail: $('#promotionDetail').froalaEditor('html.get'),
+                promotion_detail: $('#promotionDetail').val(),
                 promotion_note: $('#promotionNote').val(),
                 promotion_image: stringImage,
                 key: key
@@ -512,7 +512,7 @@ function getListPromotionById(id, isView){
             $('#promotionType').val(promotionData.promotion_type).change();
 
             if(promotionData.promotion_detail !== null) {
-                $('#promotionDetail').froalaEditor('html.set', promotionData.promotion_detail+'<div></div>');
+                $('#promotionDetail').val(promotionData.promotion_detail+'<div></div>');
             }
 
             if(promotionData.promotion_note !== null) {
