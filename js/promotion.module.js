@@ -514,7 +514,6 @@ function getListPromotionById(id, isView){
             if(promotionData.promotion_detail !== null) {
                 $('#promotionDetail').froalaEditor('html.set', promotionData.promotion_detail+'<div></div>');
             }
-
             if(promotionData.promotion_note !== null) {
                 $('#promotionNote').val(htmlDecode(promotionData.promotion_note));
             }
