@@ -81,12 +81,12 @@ $(document).ready(function () {
         /*Remove all image preview of point detail or edit point*/
         $('.img-preview').remove();
 
-        /*Enable form input*/
-        $('#promotionForm .form-control').prop('disabled', false);
         tinymce.init({ selector:'textarea.promotionDetail' });
         setTimeout(function(){
             tinymce.activeEditor.setContent('');
         },100);
+        /*Enable form input*/
+        $('#promotionForm .form-control').prop('disabled', false);
     });
 
     /*Event view promotion detail*/
