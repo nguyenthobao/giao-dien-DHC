@@ -83,6 +83,10 @@ $(document).ready(function () {
 
         /*Enable form input*/
         $('#promotionForm .form-control').prop('disabled', false);
+        tinymce.init({ selector:'textarea.promotionDetail' });
+        setTimeout(function(){
+            tinymce.activeEditor.setContent('');
+        },100);
     });
 
     /*Event view promotion detail*/
@@ -204,7 +208,7 @@ $(document).ready(function () {
                 promotion_type: $('#promotionType').val(),
                 time_start: dateToTimeStamp($('#timeStart').val()),
                 time_end: dateToTimeStamp($('#timeEnd').val()),
-                promotion_detail: $('#promotionDetail').froalaEditor('html.get'),
+                promotion_detail: tinymce.get('promotionDetail').getContent({format : 'raw', no_events : 1}),
                 promotion_note: $('#promotionNote').val(),
                 promotion_image: stringImage,
                 key: key
@@ -506,7 +510,7 @@ function getListPromotionById(id, isView){
             promotion_id: id
         },
         success: function (result){
-            tinymce.init({ selector:'textarea#promotionDetail' });
+            tinymce.init({ selector:'textarea.promotionDetail' });
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;
