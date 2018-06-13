@@ -508,7 +508,7 @@ function getListPromotionById(id, isView){
         success: function (result){
             tinymce.init({
 // General options
-                selector: "textarea",
+                selector: "textarea#promotionDetail",
                 mode : "specific_textareas",
                 theme : "advanced",
                 width: "100%",
