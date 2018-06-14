@@ -67,16 +67,16 @@
       <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="83" column="79" lean-forward="true" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="79" />
+            <state relative-caret-position="171">
+              <caret line="176" column="15" lean-forward="false" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
               <folding>
                 <element signature="e#2750#3324#0" expanded="false" />
-                <element signature="e#8621#8895#0" expanded="false" />
-                <element signature="e#8989#11849#0" expanded="false" />
+                <element signature="e#8639#8913#0" expanded="false" />
+                <element signature="e#9007#11867#0" expanded="false" />
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528949233021" expanded="true" signature="18485:18498" ph="..." />
+                <marker date="1528949795431" expanded="true" signature="18503:18516" ph="..." />
               </folding>
             </state>
           </provider>
@@ -257,6 +257,36 @@
               <item name="js" type="cbb8eebc:String" user="js" />
               <item name="tinymce" type="cbb8eebc:String" user="tinymce" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="giao-dien-DHC" type="cbb8eebc:String" user="giao-dien-DHC" />
+              <item name="js" type="cbb8eebc:String" user="js" />
+              <item name="tinymce" type="cbb8eebc:String" user="tinymce" />
+              <item name="js" type="cbb8eebc:String" user="js" />
+              <item name="tinymce" type="cbb8eebc:String" user="tinymce" />
+              <item name="plugins" type="cbb8eebc:String" user="plugins" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="giao-dien-DHC" type="cbb8eebc:String" user="giao-dien-DHC" />
+              <item name="js" type="cbb8eebc:String" user="js" />
+              <item name="tinymce" type="cbb8eebc:String" user="tinymce" />
+              <item name="js" type="cbb8eebc:String" user="js" />
+              <item name="tinymce" type="cbb8eebc:String" user="tinymce" />
+              <item name="plugins" type="cbb8eebc:String" user="plugins" />
+              <item name="emoticons" type="cbb8eebc:String" user="emoticons" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="giao-dien-DHC" type="cbb8eebc:String" user="giao-dien-DHC" />
+              <item name="js" type="cbb8eebc:String" user="js" />
+              <item name="tinymce" type="cbb8eebc:String" user="tinymce" />
+              <item name="js" type="cbb8eebc:String" user="js" />
+              <item name="tinymce" type="cbb8eebc:String" user="tinymce" />
+              <item name="plugins" type="cbb8eebc:String" user="plugins" />
+              <item name="emoticons" type="cbb8eebc:String" user="emoticons" />
+              <item name="img" type="cbb8eebc:String" user="img" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -332,14 +362,7 @@
       <workItem from="1528790962108" duration="17501000" />
       <workItem from="1528865010328" duration="604000" />
       <workItem from="1528872316480" duration="9624000" />
-      <workItem from="1528947566755" duration="1719000" />
-    </task>
-    <task id="LOCAL-00036" summary="update text news">
-      <created>1526974442679</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1526974442679</updated>
+      <workItem from="1528947566755" duration="2119000" />
     </task>
     <task id="LOCAL-00037" summary="update text news">
       <created>1526982320653</created>
@@ -677,11 +700,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528949176489</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="update text news">
+      <created>1528949586020</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1528949586020</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203383000" />
+    <option name="totallyTimeSpent" value="203783000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1035,16 +1065,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="83" column="79" lean-forward="true" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="79" />
+        <state relative-caret-position="171">
+          <caret line="176" column="15" lean-forward="false" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
           <folding>
             <element signature="e#2750#3324#0" expanded="false" />
-            <element signature="e#8621#8895#0" expanded="false" />
-            <element signature="e#8989#11849#0" expanded="false" />
+            <element signature="e#8639#8913#0" expanded="false" />
+            <element signature="e#9007#11867#0" expanded="false" />
             <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528949233021" expanded="true" signature="18485:18498" ph="..." />
+            <marker date="1528949795431" expanded="true" signature="18503:18516" ph="..." />
           </folding>
         </state>
       </provider>

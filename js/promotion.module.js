@@ -176,12 +176,12 @@ $(document).ready(function () {
                         });
                         break;
                     default:
-                        $.alert({
-                            title: 'Cảnh báo!',
-                            type: 'red',
-                            typeAnimated: true,
-                            content: result.message
-                        });
+                        // $.alert({
+                        //     title: 'Cảnh báo!',
+                        //     type: 'red',
+                        //     typeAnimated: true,
+                        //     content: result.message
+                        // });
                         break;
                 }
             },
