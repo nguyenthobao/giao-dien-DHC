@@ -175,7 +175,7 @@ $(document).ready(function () {
                             }
                         });
                         break;
-                    default:
+                    default:$('#modalForm').modal('hide');
                         // $.alert({
                         //     title: 'Cảnh báo!',
                         //     type: 'red',
@@ -236,13 +236,13 @@ $(document).ready(function () {
                             }
                         });
                         break;
-                    default:
-                        $.alert({
-                            title: 'Cảnh báo!',
-                            type: 'red',
-                            typeAnimated: true,
-                            content: result.message
-                        });
+                    default:$('#modalForm').modal('hide');
+                        // $.alert({
+                        //     title: 'Cảnh báo!',
+                        //     type: 'red',
+                        //     typeAnimated: true,
+                        //     content: result.message
+                        // });
                         break;
                 }
             },
