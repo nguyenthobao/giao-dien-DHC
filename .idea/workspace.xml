@@ -2,158 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/3d bar chart.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Abort.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/About.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Add.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Anchor.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Application.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Apply.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Back.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Bad mark.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Blue key.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Blue tag.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Boss.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Bottom.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/CD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Calculator.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Calendar.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Car key.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Clipboard.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Clock.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Close.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Compass.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Component.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Copy.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Create.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Cut.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Danger.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Database.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Delete.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Delivery.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Dial.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Disaster.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Dollar.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Down.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Download.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/E-mail.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Eject.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Erase.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Error.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Euro.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Exit.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Fall.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Fast-forward.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Favourites.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Female.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Filter.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Find.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/First record.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/First.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Flag.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Folder.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Forbidden.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Forward.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Free bsd.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Go back.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Go forward.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Go.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Good-mark.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Green tag.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Heart.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Help book 3d.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Help book.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Help.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Hint.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Home.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/How-to.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Hungup.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Info.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Key.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Last recor.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Last.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Left-right.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Lightning.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Linux.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/List.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Load.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Lock.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Low rating.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Mail.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Male.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Medium rating.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Message.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Mobile-phone.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Modify.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Movie.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Music.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/New document.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/New.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Next track.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Next.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/No-entry.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/No.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Notes.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/OK.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Paste.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Pause.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/People.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Person.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Phone number.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Pie chart.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Pinion.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Play-music.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Play.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Playback.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Previous record.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Previous.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Problem.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Question.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Raise.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Record.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Red mark.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Red star.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Red tag.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Redo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Refresh.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Remove.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Repair.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Report.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Retort.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Rewind.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Sad.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Save.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Search.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Shopping cart.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Smile.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Sound.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Stop sign.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Stop.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Sync.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Table.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Target.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Taxi.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Terminate.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Text preview.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Text.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Thumbs down.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Thumbs up.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Top.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Turn off.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Undo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Unlock.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Up-down.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Up.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Update.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Upload.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/User group.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/View.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Warning.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Wrench.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Yes.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Zoom.gif" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/download (3).jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Save.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-Save.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Search.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-Search.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Shopping cart.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-cart.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Smile.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-mile.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -179,7 +33,7 @@
       <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="0">
               <caret line="137" column="19" lean-forward="false" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
               <folding>
                 <element signature="e#300#1500#0" expanded="false" />
@@ -214,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="232" column="19" lean-forward="false" selection-start-line="232" selection-start-column="19" selection-end-line="232" selection-end-column="19" />
+            <state relative-caret-position="284">
+              <caret line="236" column="26" lean-forward="false" selection-start-line="236" selection-start-column="26" selection-end-line="236" selection-end-column="26" />
               <folding>
                 <element signature="e#2750#3324#0" expanded="false" />
                 <element signature="e#8717#8991#0" expanded="false" />
@@ -228,6 +82,16 @@
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
                 <marker date="1528950074315" expanded="true" signature="18581:18594" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -264,7 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CKE</find>
       <find>newsContent</find>
       <find>CKED</find>
       <find>ckedi</find>
@@ -294,6 +157,7 @@
       <find>addPromotion</find>
       <find>promotionForm</find>
       <find>Cảnh báo</find>
+      <find>mce-grid</find>
     </findStrings>
     <replaceStrings>
       <replace>formBodyHtml</replace>
@@ -325,6 +189,7 @@
         <option value="$PROJECT_DIR$/js/froala_editor/js/tinymce.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/promotion.module.js" />
+        <option value="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" />
       </list>
     </option>
   </component>
@@ -513,14 +378,7 @@
       <workItem from="1528865010328" duration="604000" />
       <workItem from="1528872316480" duration="9624000" />
       <workItem from="1528947566755" duration="4162000" />
-      <workItem from="1528952040038" duration="55000" />
-    </task>
-    <task id="LOCAL-00040" summary="update text news">
-      <created>1528801302433</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1528801302433</updated>
+      <workItem from="1528952040038" duration="609000" />
     </task>
     <task id="LOCAL-00041" summary="update text news">
       <created>1528801437835</created>
@@ -858,11 +716,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528951520924</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="update text news">
+      <created>1528952100793</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1528952100793</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205881000" />
+    <option name="totallyTimeSpent" value="206435000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -882,6 +747,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.018154312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -894,7 +760,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -960,14 +825,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/core.js" />
-    <entry file="file://$PROJECT_DIR$/js/map.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="41" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2635">
@@ -1176,7 +1033,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="0">
           <caret line="137" column="19" lean-forward="false" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
           <folding>
             <element signature="e#300#1500#0" expanded="false" />
@@ -1210,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="232" column="19" lean-forward="false" selection-start-line="232" selection-start-column="19" selection-end-line="232" selection-end-column="19" />
+        <state relative-caret-position="284">
+          <caret line="236" column="26" lean-forward="false" selection-start-line="236" selection-start-column="26" selection-end-line="236" selection-end-column="26" />
           <folding>
             <element signature="e#2750#3324#0" expanded="false" />
             <element signature="e#8717#8991#0" expanded="false" />
@@ -1221,6 +1078,19 @@
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
             <marker date="1528950074315" expanded="true" signature="18581:18594" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-cart.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
