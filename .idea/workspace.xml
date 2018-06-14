@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a371e09c-094e-4ee6-a00c-907fd1dc9577" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Save.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-Save.gif" />
-      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Search.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-Search.gif" />
-      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Shopping cart.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-cart.gif" />
-      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Smile.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-mile.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/CD.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-cd.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Calendar.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-calendar.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Clock.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-clock.gif" />
+      <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/Yes.gif" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/img/smiley-yes.gif" />
       <change beforePath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,9 +89,11 @@
       <file leaf-file-name="plugin.min.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <marker date="1528957446830" expanded="true" signature="489:514" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -378,14 +380,7 @@
       <workItem from="1528865010328" duration="604000" />
       <workItem from="1528872316480" duration="9624000" />
       <workItem from="1528947566755" duration="4162000" />
-      <workItem from="1528952040038" duration="609000" />
-    </task>
-    <task id="LOCAL-00041" summary="update text news">
-      <created>1528801437835</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1528801437835</updated>
+      <workItem from="1528952040038" duration="1560000" />
     </task>
     <task id="LOCAL-00042" summary="update text news">
       <created>1528801586883</created>
@@ -723,11 +718,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528952100793</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="update text news">
+      <created>1528952653709</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1528952653709</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206435000" />
+    <option name="totallyTimeSpent" value="207386000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1088,9 +1090,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tinymce/js/tinymce/plugins/emoticons/plugin.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <marker date="1528957446830" expanded="true" signature="489:514" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
