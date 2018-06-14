@@ -67,8 +67,8 @@
       <file leaf-file-name="promotion.module.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="513" column="46" lean-forward="false" selection-start-line="513" selection-start-column="46" selection-end-line="513" selection-end-column="46" />
+            <state relative-caret-position="3481">
+              <caret line="513" column="82" lean-forward="false" selection-start-line="513" selection-start-column="82" selection-end-line="513" selection-end-column="82" />
               <folding>
                 <element signature="e#2769#3343#0" expanded="false" />
                 <element signature="e#8640#8914#0" expanded="false" />
@@ -76,7 +76,7 @@
                 <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
                 <element signature="n#!!block;n#changeDate#0" expanded="false" />
                 <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-                <marker date="1528949034373" expanded="true" signature="18504:18517" ph="..." />
+                <marker date="1528949170987" expanded="true" signature="18504:18517" ph="..." />
               </folding>
             </state>
           </provider>
@@ -332,14 +332,7 @@
       <workItem from="1528790962108" duration="17501000" />
       <workItem from="1528865010328" duration="604000" />
       <workItem from="1528872316480" duration="9624000" />
-      <workItem from="1528947566755" duration="1177000" />
-    </task>
-    <task id="LOCAL-00034" summary="change title">
-      <created>1526889383280</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1526889383281</updated>
+      <workItem from="1528947566755" duration="1313000" />
     </task>
     <task id="LOCAL-00035" summary="remove ckeditor">
       <created>1526889660110</created>
@@ -677,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528948635710</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="update text news">
+      <created>1528949040624</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1528949040624</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202841000" />
+    <option name="totallyTimeSpent" value="202977000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1035,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/promotion.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="513" column="46" lean-forward="false" selection-start-line="513" selection-start-column="46" selection-end-line="513" selection-end-column="46" />
+        <state relative-caret-position="3481">
+          <caret line="513" column="82" lean-forward="false" selection-start-line="513" selection-start-column="82" selection-end-line="513" selection-end-column="82" />
           <folding>
             <element signature="e#2769#3343#0" expanded="false" />
             <element signature="e#8640#8914#0" expanded="false" />
@@ -1044,7 +1044,7 @@
             <element signature="n#!!block;n#getListPromotion#0" expanded="false" />
             <element signature="n#!!block;n#changeDate#0" expanded="false" />
             <element signature="n#!!block;n#UploadImagePromotion#0" expanded="false" />
-            <marker date="1528949034373" expanded="true" signature="18504:18517" ph="..." />
+            <marker date="1528949170987" expanded="true" signature="18504:18517" ph="..." />
           </folding>
         </state>
       </provider>
