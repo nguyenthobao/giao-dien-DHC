@@ -81,7 +81,8 @@ $(document).ready(function () {
         /*Remove all image preview of point detail or edit point*/
         $('.img-preview').remove();
 
-        tinymce.init({ selector:'textarea#promotionDetail' });
+        tinymce.init({ selector:'textarea#promotionDetail',plugins: "emoticons",
+            toolbar: "emoticons" });
         setTimeout(function(){
             tinymce.activeEditor.setContent('');
         },100);
@@ -510,7 +511,8 @@ function getListPromotionById(id, isView){
             promotion_id: id
         },
         success: function (result){
-            tinymce.init({ selector:'textarea#promotionDetail' });
+            tinymce.init({ selector:'textarea#promotionDetail',plugins: "emoticons",
+                toolbar: "emoticons"});
             result = $.parseJSON(result);
             $('#modalForm').modal('show');
             var promotionData = result.data.result;
